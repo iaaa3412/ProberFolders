@@ -1,0 +1,213 @@
+{
+  "formats": [
+    {
+      "name": "LaMP Electrical (tblLampElectricalMeasurements)",
+      "table": "tblLampElectricalMeasurements",
+      "type": "sql",
+      "requires_die_id": true,
+      "columns": [
+        {
+          "field": "fldTestSerial",
+          "source": "test_serial",
+          "quote": false
+        },
+        {
+          "field": "fldDieID",
+          "source": "die_id",
+          "quote": true
+        },
+        {
+          "field": "fldSwitch",
+          "source": "switch",
+          "quote": false
+        },
+        {
+          "field": "fldIteration",
+          "source": "iteration",
+          "quote": false
+        },
+        {
+          "field": "fldSetVoltage",
+          "source": "set_voltage",
+          "quote": false
+        },
+        {
+          "field": "fldVoltage",
+          "source": "voltage",
+          "quote": false
+        },
+        {
+          "field": "fldCurrent",
+          "source": "value",
+          "quote": false
+        }
+      ]
+    },
+    {
+      "name": "MAD-X Resistance CSV (LotID/WaferID/ChipID...)",
+      "table": "madx_resistance",
+      "type": "csv",
+      "requires_die_id": false,
+      "columns": [
+        {
+          "field": "LotID",
+          "source": "lot_id"
+        },
+        {
+          "field": "WaferID",
+          "source": "wafer_id"
+        },
+        {
+          "field": "ChipID",
+          "source": "chip_id"
+        },
+        {
+          "field": "Row",
+          "source": "row_num"
+        },
+        {
+          "field": "Column",
+          "source": "column_letter"
+        },
+        {
+          "field": "Connection",
+          "source": "connection"
+        },
+        {
+          "field": "Voltage",
+          "source": "voltage"
+        },
+        {
+          "field": "Current",
+          "source": "current"
+        },
+        {
+          "field": "Resistance",
+          "source": "resistance"
+        },
+        {
+          "field": "Voltage_DMM",
+          "source": "voltage_dmm",
+          "multiply": -1
+        },
+        {
+          "field": "Compliance",
+          "source": "compliance"
+        },
+        {
+          "field": "Time_Stamp",
+          "source": "time_stamp"
+        }
+      ]
+    },
+    {
+      "name": "Cenfire CENV Production CSV",
+      "table": "cenv_production",
+      "type": "csv",
+      "requires_die_id": false,
+      "append_date": true,
+      "lookup": {
+        "file": "cenv_1up_die_coordinates.csv",
+        "key_field": "die_id",
+        "lookup_key_col": "DIE_ID"
+      },
+      "columns": [
+        {
+          "field": "PROCESS_NAME",
+          "constant": "Reliability"
+        },
+        {
+          "field": "PRODUCT_NAME",
+          "constant": "CF1101"
+        },
+        {
+          "field": "PRODUCT_FAMILY",
+          "constant": "CF1100"
+        },
+        {
+          "field": "DATE_TIME",
+          "template": "{time_stamp}.000Z"
+        },
+        {
+          "field": "PROGRAM",
+          "constant": "Cenfire"
+        },
+        {
+          "field": "WAFER_ID",
+          "template": "{lot_id}-w{wafer_id}"
+        },
+        {
+          "field": "TEST_MODE",
+          "constant": "Production"
+        },
+        {
+          "field": "PROCESS_STEP",
+          "constant": "Inline"
+        },
+        {
+          "field": "OPERATOR",
+          "constant": "OPERATOR"
+        },
+        {
+          "field": "SUBROUTINE",
+          "constant": "Test_Structures"
+        },
+        {
+          "field": "PROBER_ID",
+          "constant": "PROBE08"
+        },
+        {
+          "field": "TESTER_ID",
+          "constant": "PROBE08"
+        },
+        {
+          "field": "PROBE_CARD_ID",
+          "constant": "38314101-001"
+        },
+        {
+          "field": "Z_OVERDRIVE_MILS",
+          "constant": "25"
+        },
+        {
+          "field": "COLUMN_RETICLE",
+          "source": "COLUMN_RETICLE"
+        },
+        {
+          "field": "ROW_RETICLE",
+          "source": "ROW_RETICLE"
+        },
+        {
+          "field": "INTRA_COL",
+          "source": "INTRA_COL"
+        },
+        {
+          "field": "INTRA_ROW",
+          "source": "INTRA_ROW"
+        },
+        {
+          "field": "ABS_COL",
+          "source": "ABS_COL"
+        },
+        {
+          "field": "ABS_ROW",
+          "source": "ABS_ROW"
+        },
+        {
+          "field": "DIE_ID",
+          "source": "DIE_ID"
+        },
+        {
+          "field": "RESISTANCE",
+          "source": "resistance",
+          "abs": true
+        },
+        {
+          "field": "ERROR",
+          "constant": ""
+        }
+      ]
+    }
+  ],
+  "default": "Cenfire CENV Production CSV",
+  "export_path": "C:\\Users\\aahmed\\Downloads"
+}

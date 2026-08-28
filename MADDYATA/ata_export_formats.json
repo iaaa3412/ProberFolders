@@ -1,0 +1,73 @@
+{
+  "formats": [
+    {
+      "name": "MaddyQual",
+      "table": "TEST",
+      "type": "csv",
+      "requires_die_id": false,
+      "columns": [
+        {
+          "field": "LotID",
+          "source": "lot_id",
+          "quote": false
+        },
+        {
+          "field": "WaferID",
+          "source": "wafer_id",
+          "quote": false
+        },
+        {
+          "field": "ChipID",
+          "source": "chip_id",
+          "quote": false
+        },
+        {
+          "field": "Row",
+          "source": "row_num",
+          "quote": false
+        },
+        {
+          "field": "Column",
+          "source": "column_letter",
+          "quote": false
+        },
+        {
+          "field": "Connection",
+          "source": "connection",
+          "quote": false
+        },
+        {
+          "field": "Voltage",
+          "source": "voltage",
+          "quote": false
+        },
+        {
+          "field": "Current",
+          "source": "current",
+          "quote": false
+        },
+        {
+          "field": "Resistance",
+          "source": "resistance",
+          "quote": false
+        },
+        {
+          "field": "Voltage_DMM",
+          "source": "voltage_dmm",
+          "quote": false
+        },
+        {
+          "field": "Compliance",
+          "source": "compliance",
+          "quote": false
+        },
+        {
+          "field": "Time_Stamp",
+          "source": "time_stamp",
+          "quote": false
+        }
+      ]
+    }
+  ],
+  "default": null
+}

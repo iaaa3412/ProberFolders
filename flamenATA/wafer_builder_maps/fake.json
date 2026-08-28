@@ -1,0 +1,172 @@
+{
+  "shot_rows": "2",
+  "shot_cols": "4",
+  "die_pitch_x": "20",
+  "die_pitch_y": "200",
+  "shot_pitch_x": "",
+  "shot_pitch_y": "",
+  "shot_cells": {
+    "0,0": {
+      "present": false
+    },
+    "0,1": {
+      "present": true
+    },
+    "0,2": {
+      "present": true
+    },
+    "0,3": {
+      "present": true
+    },
+    "1,0": {
+      "present": true
+    },
+    "1,1": {
+      "present": true
+    },
+    "1,2": {
+      "present": true
+    },
+    "1,3": {
+      "present": false
+    }
+  },
+  "shotmap_rows": "3",
+  "shotmap_cols": "3",
+  "shotmap_cells": {
+    "0,0": false,
+    "0,1": true,
+    "0,2": false,
+    "1,0": true,
+    "1,1": true,
+    "1,2": true,
+    "2,0": false,
+    "2,1": true,
+    "2,2": false
+  },
+  "die_status": {
+    "0,1,0,1": {
+      "die_id": "A",
+      "status": "normal"
+    },
+    "0,1,0,2": {
+      "die_id": "B",
+      "status": "normal"
+    },
+    "0,1,0,3": {
+      "die_id": "C",
+      "status": "normal"
+    },
+    "0,1,1,0": {
+      "die_id": "D",
+      "status": "normal"
+    },
+    "0,1,1,1": {
+      "die_id": "E",
+      "status": "normal"
+    },
+    "0,1,1,2": {
+      "die_id": "F",
+      "status": "normal"
+    },
+    "1,0,0,1": {
+      "die_id": "G",
+      "status": "normal"
+    },
+    "1,0,0,2": {
+      "die_id": "H",
+      "status": "normal"
+    },
+    "1,0,0,3": {
+      "die_id": "I",
+      "status": "normal"
+    },
+    "1,1,0,1": {
+      "die_id": "J",
+      "status": "normal"
+    },
+    "1,1,0,2": {
+      "die_id": "K",
+      "status": "normal"
+    },
+    "1,1,0,3": {
+      "die_id": "L",
+      "status": "normal"
+    },
+    "1,2,0,1": {
+      "die_id": "M",
+      "status": "normal"
+    },
+    "1,2,0,2": {
+      "die_id": "N",
+      "status": "normal"
+    },
+    "1,2,0,3": {
+      "die_id": "O",
+      "status": "normal"
+    },
+    "1,0,1,0": {
+      "die_id": "P",
+      "status": "normal"
+    },
+    "1,0,1,1": {
+      "die_id": "Q",
+      "status": "normal"
+    },
+    "1,0,1,2": {
+      "die_id": "R",
+      "status": "normal"
+    },
+    "1,1,1,0": {
+      "die_id": "S",
+      "status": "normal"
+    },
+    "1,1,1,1": {
+      "die_id": "T",
+      "status": "normal"
+    },
+    "1,1,1,2": {
+      "die_id": "U",
+      "status": "normal"
+    },
+    "1,2,1,0": {
+      "die_id": "V",
+      "status": "normal"
+    },
+    "1,2,1,1": {
+      "die_id": "W",
+      "status": "normal"
+    },
+    "1,2,1,2": {
+      "die_id": "X",
+      "status": "normal"
+    },
+    "2,1,0,1": {
+      "die_id": "Y",
+      "status": "normal"
+    },
+    "2,1,0,2": {
+      "die_id": "Z",
+      "status": "normal"
+    },
+    "2,1,0,3": {
+      "die_id": "AA",
+      "status": "normal"
+    },
+    "2,1,1,0": {
+      "die_id": "AB",
+      "status": "normal"
+    },
+    "2,1,1,1": {
+      "die_id": "AC",
+      "status": "normal"
+    },
+    "2,1,1,2": {
+      "die_id": "AD",
+      "status": "normal"
+    }
+  },
+  "overlay_row_offset": 0,
+  "overlay_col_offset": 0,
+  "overlay_confirmed": false
+}

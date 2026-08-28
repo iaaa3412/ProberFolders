@@ -1,0 +1,10 @@
+kind,pad_name,x,y,x1,y1,x2,y2
+pad,right,78.0,143.0,,,,
+pad,rightm,142.0,144.0,,,,
+pad,leftm,204.0,143.0,,,,
+pad,left,262.0,146.0,,,,
+die,Die,,,27.0,120.0,290.0,231.0
+pin,23:left,0.0,75.0,,,,
+pin,24:leftm,0.0,74.0,,,,
+pin,1:rightm,0.0,77.0,,,,
+pin,2:right,1.0,71.0,,,,

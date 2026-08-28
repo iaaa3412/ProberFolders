@@ -1,0 +1,10 @@
+# ATA recipe — madres
+# ── Measurement Steps ──
+Step1=name=res1 | type=resistance | mode=measure | instrument=DMM | chan= | target= | hi=1:rightm | lo=2:right | level= | limit= | shape= | freq= | conn=2F01,2E02 | min= | max=
+Step2=name=100 | type=delay | mode= | instrument= | chan= | target= | hi= | lo= | level=100 | limit= | shape= | freq= | conn= | min= | max=
+Step3=name=open1 | type=open | mode= | instrument= | chan= | target=res1 | hi= | lo= | level= | limit= | shape= | freq= | conn=2F01,2E02 | min= | max=
+Step4=name=100 | type=delay | mode= | instrument= | chan= | target= | hi= | lo= | level=100 | limit= | shape= | freq= | conn= | min= | max=
+Step5=name=res2 | type=resistance | mode=measure | instrument=SMU | chan=A | target= | hi=1:rightm | lo=2:right | level=100 | limit= | shape= | freq= | conn=2A01,2B02 | min= | max=
+Step6=name=100 | type=delay | mode= | instrument= | chan= | target= | hi= | lo= | level=100 | limit= | shape= | freq= | conn= | min= | max=
+Step7=name=open2 | type=open | mode= | instrument= | chan= | target=all | hi= | lo= | level= | limit= | shape= | freq= | conn=all | min= | max=
+Step8=name=check | type=passfail | mode= | instrument= | chan= | target=res1 | hi= | lo= | level= | limit= | shape= | freq= | conn= | min=0 | max=100

@@ -1,0 +1,40 @@
+{
+  "source_file": "C:/Users/aahmed/Downloads/WaferProbeAndTestAutomation/WaferProbeAndTestAutomation/HPLMP01S1A.gds",
+  "parsed_at": "2026-07-10T10:44:40",
+  "library_name": "R9A TO Mask_LEDIT_16.23.0",
+  "unit": 1e-06,
+  "precision": 1e-09,
+  "cell_count": 5,
+  "top_cells": [
+    "HPLMP01S1A"
+  ],
+  "selected_cell": "HPLMP01S1A",
+  "selected_cell_bbox": [
+    -66956.0,
+    -66622.5,
+    66956.0,
+    66622.5
+  ],
+  "polygon_count": 382,
+  "label_count": 0,
+  "reference_count": 2423,
+  "layer_count": 2,
+  "pad_count": 0,
+  "alignment_mark_count": 0,
+  "alignment_mark_search_names": [
+    "ATA_ALIGN_*",
+    "KS_LYR4",
+    "KS_Neg_LYR2"
+  ],
+  "ata_metadata_count": 0,
+  "ata_device_count": 0,
+  "ata_test_structure_count": 0,
+  "layout_metadata_loaded": false,
+  "layout_metadata_path": "",
+  "pad_layer": null,
+  "pad_datatype": 0,
+  "flatten_selected_for_pads": true,
+  "exported_at": "2026-07-10T10:44:48",
+  "output_dir": "C:/Users/aahmed/Downloads/WaferProbeAndTestAutomation/WaferProbeAndTestAutomation/LAMPATA",
+  "wafer_map_count": 2418
+}

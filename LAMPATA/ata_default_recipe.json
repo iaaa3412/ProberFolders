@@ -1,0 +1,12 @@
+{
+  "card": "LaMP_HP",
+  "recipe": "Lamp 21PCM whole wafer",
+  "electroglas": {
+    "card": "LaMP_HP",
+    "recipe": "Lamp 21PCM whole wafer"
+  },
+  "accretech": {
+    "card": "LaMP_HP_b",
+    "recipe": "lampaccr_probe08new"
+  }
+}

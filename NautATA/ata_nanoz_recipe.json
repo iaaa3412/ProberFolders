@@ -1,0 +1,6444 @@
+{
+  "shots": [
+    {
+      "label": "Col 1 \u00b7 TD1 (rows 46-65)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 1,
+      "td_start_row": 46,
+      "td_end_row": 65,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 2 \u00b7 TD1 (rows 46-65)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 2,
+      "td_start_row": 46,
+      "td_end_row": 65,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 3 \u00b7 TD1 (rows 46-65)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 3,
+      "td_start_row": 46,
+      "td_end_row": 65,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 4 \u00b7 TD1 (rows 46-65)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 4,
+      "td_start_row": 46,
+      "td_end_row": 65,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 5 \u00b7 TD1 (rows 46-65)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 5,
+      "td_start_row": 46,
+      "td_end_row": 65,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 6 \u00b7 TD1 (rows 31-50)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 6,
+      "td_start_row": 31,
+      "td_end_row": 50,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 6 \u00b7 TD2 (rows 51-70)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 6,
+      "td_start_row": 51,
+      "td_end_row": 70,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 6 \u00b7 TD3 (rows 71-90)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 6,
+      "td_start_row": 71,
+      "td_end_row": 90,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 7 \u00b7 TD1 (rows 31-50)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 7,
+      "td_start_row": 31,
+      "td_end_row": 50,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 7 \u00b7 TD2 (rows 51-70)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 7,
+      "td_start_row": 51,
+      "td_end_row": 70,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 7 \u00b7 TD3 (rows 71-90)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 7,
+      "td_start_row": 71,
+      "td_end_row": 90,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 8 \u00b7 TD1 (rows 31-50)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 8,
+      "td_start_row": 31,
+      "td_end_row": 50,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 8 \u00b7 TD2 (rows 51-70)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 8,
+      "td_start_row": 51,
+      "td_end_row": 70,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 8 \u00b7 TD3 (rows 71-90)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 8,
+      "td_start_row": 71,
+      "td_end_row": 90,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 9 \u00b7 TD1 (rows 31-50)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 9,
+      "td_start_row": 31,
+      "td_end_row": 50,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 9 \u00b7 TD2 (rows 51-70)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 9,
+      "td_start_row": 51,
+      "td_end_row": 70,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 9 \u00b7 TD3 (rows 71-90)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 9,
+      "td_start_row": 71,
+      "td_end_row": 90,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 10 \u00b7 TD1 (rows 31-50)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 10,
+      "td_start_row": 31,
+      "td_end_row": 50,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 10 \u00b7 TD2 (rows 51-70)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 10,
+      "td_start_row": 51,
+      "td_end_row": 70,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 10 \u00b7 TD3 (rows 71-90)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 10,
+      "td_start_row": 71,
+      "td_end_row": 90,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 11 \u00b7 TD1 (rows 21-40)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 11,
+      "td_start_row": 21,
+      "td_end_row": 40,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 11 \u00b7 TD2 (rows 41-60)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 11,
+      "td_start_row": 41,
+      "td_end_row": 60,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 11 \u00b7 TD3 (rows 61-80)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 11,
+      "td_start_row": 61,
+      "td_end_row": 80,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 11 \u00b7 TD4 (rows 81-100)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 11,
+      "td_start_row": 81,
+      "td_end_row": 100,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 12 \u00b7 TD1 (rows 21-40)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 12,
+      "td_start_row": 21,
+      "td_end_row": 40,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 12 \u00b7 TD2 (rows 41-60)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 12,
+      "td_start_row": 41,
+      "td_end_row": 60,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 12 \u00b7 TD3 (rows 61-80)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 12,
+      "td_start_row": 61,
+      "td_end_row": 80,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 12 \u00b7 TD4 (rows 81-100)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 12,
+      "td_start_row": 81,
+      "td_end_row": 100,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 13 \u00b7 TD1 (rows 21-40)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 13,
+      "td_start_row": 21,
+      "td_end_row": 40,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 13 \u00b7 TD2 (rows 41-60)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 13,
+      "td_start_row": 41,
+      "td_end_row": 60,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 13 \u00b7 TD3 (rows 61-80)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 13,
+      "td_start_row": 61,
+      "td_end_row": 80,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 13 \u00b7 TD4 (rows 81-100)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 13,
+      "td_start_row": 81,
+      "td_end_row": 100,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 14 \u00b7 TD1 (rows 21-40)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 14,
+      "td_start_row": 21,
+      "td_end_row": 40,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 14 \u00b7 TD2 (rows 41-60)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 14,
+      "td_start_row": 41,
+      "td_end_row": 60,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 14 \u00b7 TD3 (rows 61-80)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 14,
+      "td_start_row": 61,
+      "td_end_row": 80,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 14 \u00b7 TD4 (rows 81-100)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 14,
+      "td_start_row": 81,
+      "td_end_row": 100,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 15 \u00b7 TD1 (rows 21-40)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 15,
+      "td_start_row": 21,
+      "td_end_row": 40,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 15 \u00b7 TD2 (rows 41-60)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 15,
+      "td_start_row": 41,
+      "td_end_row": 60,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 15 \u00b7 TD3 (rows 61-80)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 15,
+      "td_start_row": 61,
+      "td_end_row": 80,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 15 \u00b7 TD4 (rows 81-100)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 15,
+      "td_start_row": 81,
+      "td_end_row": 100,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 16 \u00b7 TD1 (rows 16-35)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 16,
+      "td_start_row": 16,
+      "td_end_row": 35,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 16 \u00b7 TD2 (rows 36-55)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 16,
+      "td_start_row": 36,
+      "td_end_row": 55,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 16 \u00b7 TD3 (rows 56-75)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 16,
+      "td_start_row": 56,
+      "td_end_row": 75,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 16 \u00b7 TD4 (rows 76-95)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 16,
+      "td_start_row": 76,
+      "td_end_row": 95,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 17 \u00b7 TD1 (rows 16-35)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 17,
+      "td_start_row": 16,
+      "td_end_row": 35,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 17 \u00b7 TD2 (rows 36-55)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 17,
+      "td_start_row": 36,
+      "td_end_row": 55,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 17 \u00b7 TD3 (rows 56-75)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 17,
+      "td_start_row": 56,
+      "td_end_row": 75,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 17 \u00b7 TD4 (rows 76-95)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 17,
+      "td_start_row": 76,
+      "td_end_row": 95,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 18 \u00b7 TD1 (rows 16-35)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 18,
+      "td_start_row": 16,
+      "td_end_row": 35,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 18 \u00b7 TD2 (rows 36-55)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 18,
+      "td_start_row": 36,
+      "td_end_row": 55,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 18 \u00b7 TD3 (rows 56-75)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 18,
+      "td_start_row": 56,
+      "td_end_row": 75,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 18 \u00b7 TD4 (rows 76-95)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 18,
+      "td_start_row": 76,
+      "td_end_row": 95,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 19 \u00b7 TD1 (rows 16-35)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 19,
+      "td_start_row": 16,
+      "td_end_row": 35,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 19 \u00b7 TD2 (rows 36-55)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 19,
+      "td_start_row": 36,
+      "td_end_row": 55,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 19 \u00b7 TD3 (rows 56-75)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 19,
+      "td_start_row": 56,
+      "td_end_row": 75,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 19 \u00b7 TD4 (rows 76-95)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 19,
+      "td_start_row": 76,
+      "td_end_row": 95,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 20 \u00b7 TD1 (rows 16-35)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 20,
+      "td_start_row": 16,
+      "td_end_row": 35,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 20 \u00b7 TD2 (rows 36-55)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 20,
+      "td_start_row": 36,
+      "td_end_row": 55,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 20 \u00b7 TD3 (rows 56-75)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 20,
+      "td_start_row": 56,
+      "td_end_row": 75,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 20 \u00b7 TD4 (rows 76-95)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 20,
+      "td_start_row": 76,
+      "td_end_row": 95,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 21 \u00b7 TD1 (rows 11-30)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 21,
+      "td_start_row": 11,
+      "td_end_row": 30,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 21 \u00b7 TD2 (rows 31-50)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 21,
+      "td_start_row": 31,
+      "td_end_row": 50,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 21 \u00b7 TD3 (rows 51-70)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 21,
+      "td_start_row": 51,
+      "td_end_row": 70,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 21 \u00b7 TD4 (rows 71-90)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 21,
+      "td_start_row": 71,
+      "td_end_row": 90,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 21 \u00b7 TD5 (rows 91-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 21,
+      "td_start_row": 91,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 22 \u00b7 TD1 (rows 11-30)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 22,
+      "td_start_row": 11,
+      "td_end_row": 30,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 22 \u00b7 TD2 (rows 31-50)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 22,
+      "td_start_row": 31,
+      "td_end_row": 50,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 22 \u00b7 TD3 (rows 51-70)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 22,
+      "td_start_row": 51,
+      "td_end_row": 70,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 22 \u00b7 TD4 (rows 71-90)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 22,
+      "td_start_row": 71,
+      "td_end_row": 90,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 22 \u00b7 TD5 (rows 91-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 22,
+      "td_start_row": 91,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 23 \u00b7 TD1 (rows 11-30)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 23,
+      "td_start_row": 11,
+      "td_end_row": 30,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 23 \u00b7 TD2 (rows 31-50)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 23,
+      "td_start_row": 31,
+      "td_end_row": 50,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 23 \u00b7 TD3 (rows 51-70)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 23,
+      "td_start_row": 51,
+      "td_end_row": 70,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 23 \u00b7 TD4 (rows 71-90)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 23,
+      "td_start_row": 71,
+      "td_end_row": 90,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 23 \u00b7 TD5 (rows 91-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 23,
+      "td_start_row": 91,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 24 \u00b7 TD1 (rows 11-30)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 24,
+      "td_start_row": 11,
+      "td_end_row": 30,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 24 \u00b7 TD2 (rows 31-50)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 24,
+      "td_start_row": 31,
+      "td_end_row": 50,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 24 \u00b7 TD3 (rows 51-70)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 24,
+      "td_start_row": 51,
+      "td_end_row": 70,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 24 \u00b7 TD4 (rows 71-90)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 24,
+      "td_start_row": 71,
+      "td_end_row": 90,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 24 \u00b7 TD5 (rows 91-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 24,
+      "td_start_row": 91,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 25 \u00b7 TD1 (rows 11-30)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 25,
+      "td_start_row": 11,
+      "td_end_row": 30,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 25 \u00b7 TD2 (rows 31-50)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 25,
+      "td_start_row": 31,
+      "td_end_row": 50,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 25 \u00b7 TD3 (rows 51-70)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 25,
+      "td_start_row": 51,
+      "td_end_row": 70,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 25 \u00b7 TD4 (rows 71-90)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 25,
+      "td_start_row": 71,
+      "td_end_row": 90,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 25 \u00b7 TD5 (rows 91-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 25,
+      "td_start_row": 91,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 26 \u00b7 TD1 (rows 11-30)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 26,
+      "td_start_row": 11,
+      "td_end_row": 30,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 26 \u00b7 TD2 (rows 31-50)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 26,
+      "td_start_row": 31,
+      "td_end_row": 50,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 26 \u00b7 TD3 (rows 51-70)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 26,
+      "td_start_row": 51,
+      "td_end_row": 70,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 26 \u00b7 TD4 (rows 71-90)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 26,
+      "td_start_row": 71,
+      "td_end_row": 90,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 26 \u00b7 TD5 (rows 91-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 26,
+      "td_start_row": 91,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 27 \u00b7 TD1 (rows 11-30)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 27,
+      "td_start_row": 11,
+      "td_end_row": 30,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 27 \u00b7 TD2 (rows 31-50)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 27,
+      "td_start_row": 31,
+      "td_end_row": 50,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 27 \u00b7 TD3 (rows 51-70)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 27,
+      "td_start_row": 51,
+      "td_end_row": 70,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 27 \u00b7 TD4 (rows 71-90)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 27,
+      "td_start_row": 71,
+      "td_end_row": 90,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 27 \u00b7 TD5 (rows 91-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 27,
+      "td_start_row": 91,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 28 \u00b7 TD1 (rows 11-30)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 28,
+      "td_start_row": 11,
+      "td_end_row": 30,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 28 \u00b7 TD2 (rows 31-50)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 28,
+      "td_start_row": 31,
+      "td_end_row": 50,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 28 \u00b7 TD3 (rows 51-70)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 28,
+      "td_start_row": 51,
+      "td_end_row": 70,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 28 \u00b7 TD4 (rows 71-90)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 28,
+      "td_start_row": 71,
+      "td_end_row": 90,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 28 \u00b7 TD5 (rows 91-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 28,
+      "td_start_row": 91,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 29 \u00b7 TD1 (rows 11-30)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 29,
+      "td_start_row": 11,
+      "td_end_row": 30,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 29 \u00b7 TD2 (rows 31-50)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 29,
+      "td_start_row": 31,
+      "td_end_row": 50,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 29 \u00b7 TD3 (rows 51-70)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 29,
+      "td_start_row": 51,
+      "td_end_row": 70,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 29 \u00b7 TD4 (rows 71-90)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 29,
+      "td_start_row": 71,
+      "td_end_row": 90,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 29 \u00b7 TD5 (rows 91-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 29,
+      "td_start_row": 91,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 30 \u00b7 TD1 (rows 11-30)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 30,
+      "td_start_row": 11,
+      "td_end_row": 30,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 30 \u00b7 TD2 (rows 31-50)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 30,
+      "td_start_row": 31,
+      "td_end_row": 50,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 30 \u00b7 TD3 (rows 51-70)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 30,
+      "td_start_row": 51,
+      "td_end_row": 70,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 30 \u00b7 TD4 (rows 71-90)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 30,
+      "td_start_row": 71,
+      "td_end_row": 90,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 30 \u00b7 TD5 (rows 91-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 30,
+      "td_start_row": 91,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 31 \u00b7 TD1 (rows 6-25)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 31,
+      "td_start_row": 6,
+      "td_end_row": 25,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 31 \u00b7 TD2 (rows 26-45)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 31,
+      "td_start_row": 26,
+      "td_end_row": 45,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 31 \u00b7 TD3 (rows 46-65)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 31,
+      "td_start_row": 46,
+      "td_end_row": 65,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 31 \u00b7 TD4 (rows 66-85)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 31,
+      "td_start_row": 66,
+      "td_end_row": 85,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 31 \u00b7 TD5 (rows 86-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 31,
+      "td_start_row": 86,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 32 \u00b7 TD1 (rows 6-25)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 32,
+      "td_start_row": 6,
+      "td_end_row": 25,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 32 \u00b7 TD2 (rows 26-45)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 32,
+      "td_start_row": 26,
+      "td_end_row": 45,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 32 \u00b7 TD3 (rows 46-65)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 32,
+      "td_start_row": 46,
+      "td_end_row": 65,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 32 \u00b7 TD4 (rows 66-85)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 32,
+      "td_start_row": 66,
+      "td_end_row": 85,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 32 \u00b7 TD5 (rows 86-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 32,
+      "td_start_row": 86,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 33 \u00b7 TD1 (rows 6-25)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 33,
+      "td_start_row": 6,
+      "td_end_row": 25,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 33 \u00b7 TD2 (rows 26-45)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 33,
+      "td_start_row": 26,
+      "td_end_row": 45,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 33 \u00b7 TD3 (rows 46-65)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 33,
+      "td_start_row": 46,
+      "td_end_row": 65,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 33 \u00b7 TD4 (rows 66-85)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 33,
+      "td_start_row": 66,
+      "td_end_row": 85,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 33 \u00b7 TD5 (rows 86-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 33,
+      "td_start_row": 86,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 34 \u00b7 TD1 (rows 6-25)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 34,
+      "td_start_row": 6,
+      "td_end_row": 25,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 34 \u00b7 TD2 (rows 26-45)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 34,
+      "td_start_row": 26,
+      "td_end_row": 45,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 34 \u00b7 TD3 (rows 46-65)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 34,
+      "td_start_row": 46,
+      "td_end_row": 65,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 34 \u00b7 TD4 (rows 66-85)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 34,
+      "td_start_row": 66,
+      "td_end_row": 85,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 34 \u00b7 TD5 (rows 86-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 34,
+      "td_start_row": 86,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 35 \u00b7 TD1 (rows 6-25)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 35,
+      "td_start_row": 6,
+      "td_end_row": 25,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 35 \u00b7 TD2 (rows 26-45)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 35,
+      "td_start_row": 26,
+      "td_end_row": 45,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 35 \u00b7 TD3 (rows 46-65)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 35,
+      "td_start_row": 46,
+      "td_end_row": 65,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 35 \u00b7 TD4 (rows 66-85)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 35,
+      "td_start_row": 66,
+      "td_end_row": 85,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 35 \u00b7 TD5 (rows 86-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 35,
+      "td_start_row": 86,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 36 \u00b7 TD1 (rows 6-25)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 36,
+      "td_start_row": 6,
+      "td_end_row": 25,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 36 \u00b7 TD2 (rows 26-45)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 36,
+      "td_start_row": 26,
+      "td_end_row": 45,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 36 \u00b7 TD3 (rows 46-65)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 36,
+      "td_start_row": 46,
+      "td_end_row": 65,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 36 \u00b7 TD4 (rows 66-85)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 36,
+      "td_start_row": 66,
+      "td_end_row": 85,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 36 \u00b7 TD5 (rows 86-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 36,
+      "td_start_row": 86,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 37 \u00b7 TD1 (rows 6-25)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 37,
+      "td_start_row": 6,
+      "td_end_row": 25,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 37 \u00b7 TD2 (rows 26-45)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 37,
+      "td_start_row": 26,
+      "td_end_row": 45,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 37 \u00b7 TD3 (rows 46-65)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 37,
+      "td_start_row": 46,
+      "td_end_row": 65,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 37 \u00b7 TD4 (rows 66-85)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 37,
+      "td_start_row": 66,
+      "td_end_row": 85,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 37 \u00b7 TD5 (rows 86-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 37,
+      "td_start_row": 86,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 38 \u00b7 TD1 (rows 6-25)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 38,
+      "td_start_row": 6,
+      "td_end_row": 25,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 38 \u00b7 TD2 (rows 26-45)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 38,
+      "td_start_row": 26,
+      "td_end_row": 45,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 38 \u00b7 TD3 (rows 46-65)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 38,
+      "td_start_row": 46,
+      "td_end_row": 65,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 38 \u00b7 TD4 (rows 66-85)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 38,
+      "td_start_row": 66,
+      "td_end_row": 85,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 38 \u00b7 TD5 (rows 86-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 38,
+      "td_start_row": 86,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 39 \u00b7 TD1 (rows 6-25)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 39,
+      "td_start_row": 6,
+      "td_end_row": 25,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 39 \u00b7 TD2 (rows 26-45)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 39,
+      "td_start_row": 26,
+      "td_end_row": 45,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 39 \u00b7 TD3 (rows 46-65)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 39,
+      "td_start_row": 46,
+      "td_end_row": 65,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 39 \u00b7 TD4 (rows 66-85)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 39,
+      "td_start_row": 66,
+      "td_end_row": 85,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 39 \u00b7 TD5 (rows 86-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 39,
+      "td_start_row": 86,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 40 \u00b7 TD1 (rows 6-25)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 40,
+      "td_start_row": 6,
+      "td_end_row": 25,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 40 \u00b7 TD2 (rows 26-45)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 40,
+      "td_start_row": 26,
+      "td_end_row": 45,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 40 \u00b7 TD3 (rows 46-65)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 40,
+      "td_start_row": 46,
+      "td_end_row": 65,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 40 \u00b7 TD4 (rows 66-85)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 40,
+      "td_start_row": 66,
+      "td_end_row": 85,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 40 \u00b7 TD5 (rows 86-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 40,
+      "td_start_row": 86,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 41 \u00b7 TD1 (rows 6-25)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 41,
+      "td_start_row": 6,
+      "td_end_row": 25,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 41 \u00b7 TD2 (rows 26-45)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 41,
+      "td_start_row": 26,
+      "td_end_row": 45,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 41 \u00b7 TD3 (rows 46-65)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 41,
+      "td_start_row": 46,
+      "td_end_row": 65,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 41 \u00b7 TD4 (rows 66-85)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 41,
+      "td_start_row": 66,
+      "td_end_row": 85,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 41 \u00b7 TD5 (rows 86-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 41,
+      "td_start_row": 86,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 42 \u00b7 TD1 (rows 6-25)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 42,
+      "td_start_row": 6,
+      "td_end_row": 25,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 42 \u00b7 TD2 (rows 26-45)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 42,
+      "td_start_row": 26,
+      "td_end_row": 45,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 42 \u00b7 TD3 (rows 46-65)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 42,
+      "td_start_row": 46,
+      "td_end_row": 65,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 42 \u00b7 TD4 (rows 66-85)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 42,
+      "td_start_row": 66,
+      "td_end_row": 85,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 42 \u00b7 TD5 (rows 86-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 42,
+      "td_start_row": 86,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 43 \u00b7 TD1 (rows 6-25)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 43,
+      "td_start_row": 6,
+      "td_end_row": 25,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 43 \u00b7 TD2 (rows 26-45)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 43,
+      "td_start_row": 26,
+      "td_end_row": 45,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 43 \u00b7 TD3 (rows 46-65)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 43,
+      "td_start_row": 46,
+      "td_end_row": 65,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 43 \u00b7 TD4 (rows 66-85)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 43,
+      "td_start_row": 66,
+      "td_end_row": 85,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 43 \u00b7 TD5 (rows 86-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 43,
+      "td_start_row": 86,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 44 \u00b7 TD1 (rows 6-25)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 44,
+      "td_start_row": 6,
+      "td_end_row": 25,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 44 \u00b7 TD2 (rows 26-45)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 44,
+      "td_start_row": 26,
+      "td_end_row": 45,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 44 \u00b7 TD3 (rows 46-65)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 44,
+      "td_start_row": 46,
+      "td_end_row": 65,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 44 \u00b7 TD4 (rows 66-85)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 44,
+      "td_start_row": 66,
+      "td_end_row": 85,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 44 \u00b7 TD5 (rows 86-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 44,
+      "td_start_row": 86,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 45 \u00b7 TD1 (rows 6-25)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 45,
+      "td_start_row": 6,
+      "td_end_row": 25,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 45 \u00b7 TD2 (rows 26-45)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 45,
+      "td_start_row": 26,
+      "td_end_row": 45,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 45 \u00b7 TD3 (rows 46-65)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 45,
+      "td_start_row": 46,
+      "td_end_row": 65,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 45 \u00b7 TD4 (rows 66-85)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 45,
+      "td_start_row": 66,
+      "td_end_row": 85,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 45 \u00b7 TD5 (rows 86-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 45,
+      "td_start_row": 86,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 46 \u00b7 TD1 (rows 1-20)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 46,
+      "td_start_row": 1,
+      "td_end_row": 20,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 46 \u00b7 TD2 (rows 21-40)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 46,
+      "td_start_row": 21,
+      "td_end_row": 40,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 46 \u00b7 TD3 (rows 41-60)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 46,
+      "td_start_row": 41,
+      "td_end_row": 60,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 46 \u00b7 TD4 (rows 61-80)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 46,
+      "td_start_row": 61,
+      "td_end_row": 80,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 46 \u00b7 TD5 (rows 81-100)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 46,
+      "td_start_row": 81,
+      "td_end_row": 100,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 46 \u00b7 TD6 (rows 101-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 46,
+      "td_start_row": 101,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 47 \u00b7 TD1 (rows 1-20)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 47,
+      "td_start_row": 1,
+      "td_end_row": 20,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 47 \u00b7 TD2 (rows 21-40)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 47,
+      "td_start_row": 21,
+      "td_end_row": 40,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 47 \u00b7 TD3 (rows 41-60)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 47,
+      "td_start_row": 41,
+      "td_end_row": 60,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 47 \u00b7 TD4 (rows 61-80)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 47,
+      "td_start_row": 61,
+      "td_end_row": 80,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 47 \u00b7 TD5 (rows 81-100)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 47,
+      "td_start_row": 81,
+      "td_end_row": 100,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 47 \u00b7 TD6 (rows 101-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 47,
+      "td_start_row": 101,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 48 \u00b7 TD1 (rows 1-20)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 48,
+      "td_start_row": 1,
+      "td_end_row": 20,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 48 \u00b7 TD2 (rows 21-40)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 48,
+      "td_start_row": 21,
+      "td_end_row": 40,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 48 \u00b7 TD3 (rows 41-60)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 48,
+      "td_start_row": 41,
+      "td_end_row": 60,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 48 \u00b7 TD4 (rows 61-80)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 48,
+      "td_start_row": 61,
+      "td_end_row": 80,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 48 \u00b7 TD5 (rows 81-100)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 48,
+      "td_start_row": 81,
+      "td_end_row": 100,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 48 \u00b7 TD6 (rows 101-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 48,
+      "td_start_row": 101,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 49 \u00b7 TD1 (rows 1-20)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 49,
+      "td_start_row": 1,
+      "td_end_row": 20,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 49 \u00b7 TD2 (rows 21-40)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 49,
+      "td_start_row": 21,
+      "td_end_row": 40,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 49 \u00b7 TD3 (rows 41-60)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 49,
+      "td_start_row": 41,
+      "td_end_row": 60,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 49 \u00b7 TD4 (rows 61-80)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 49,
+      "td_start_row": 61,
+      "td_end_row": 80,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 49 \u00b7 TD5 (rows 81-100)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 49,
+      "td_start_row": 81,
+      "td_end_row": 100,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 49 \u00b7 TD6 (rows 101-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 49,
+      "td_start_row": 101,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 50 \u00b7 TD1 (rows 1-20)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 50,
+      "td_start_row": 1,
+      "td_end_row": 20,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 50 \u00b7 TD2 (rows 21-40)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 50,
+      "td_start_row": 21,
+      "td_end_row": 40,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 50 \u00b7 TD3 (rows 41-60)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 50,
+      "td_start_row": 41,
+      "td_end_row": 60,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 50 \u00b7 TD4 (rows 61-80)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 50,
+      "td_start_row": 61,
+      "td_end_row": 80,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 50 \u00b7 TD5 (rows 81-100)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 50,
+      "td_start_row": 81,
+      "td_end_row": 100,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 50 \u00b7 TD6 (rows 101-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 50,
+      "td_start_row": 101,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 51 \u00b7 TD1 (rows 1-20)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 51,
+      "td_start_row": 1,
+      "td_end_row": 20,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 51 \u00b7 TD2 (rows 21-40)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 51,
+      "td_start_row": 21,
+      "td_end_row": 40,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 51 \u00b7 TD3 (rows 41-60)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 51,
+      "td_start_row": 41,
+      "td_end_row": 60,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 51 \u00b7 TD4 (rows 61-80)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 51,
+      "td_start_row": 61,
+      "td_end_row": 80,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 51 \u00b7 TD5 (rows 81-100)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 51,
+      "td_start_row": 81,
+      "td_end_row": 100,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 51 \u00b7 TD6 (rows 101-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 51,
+      "td_start_row": 101,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 52 \u00b7 TD1 (rows 1-20)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 52,
+      "td_start_row": 1,
+      "td_end_row": 20,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 52 \u00b7 TD2 (rows 21-40)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 52,
+      "td_start_row": 21,
+      "td_end_row": 40,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 52 \u00b7 TD3 (rows 41-60)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 52,
+      "td_start_row": 41,
+      "td_end_row": 60,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 52 \u00b7 TD4 (rows 61-80)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 52,
+      "td_start_row": 61,
+      "td_end_row": 80,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 52 \u00b7 TD5 (rows 81-100)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 52,
+      "td_start_row": 81,
+      "td_end_row": 100,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 52 \u00b7 TD6 (rows 101-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 52,
+      "td_start_row": 101,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 53 \u00b7 TD1 (rows 1-20)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 53,
+      "td_start_row": 1,
+      "td_end_row": 20,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 53 \u00b7 TD2 (rows 21-40)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 53,
+      "td_start_row": 21,
+      "td_end_row": 40,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 53 \u00b7 TD3 (rows 41-60)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 53,
+      "td_start_row": 41,
+      "td_end_row": 60,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 53 \u00b7 TD4 (rows 61-80)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 53,
+      "td_start_row": 61,
+      "td_end_row": 80,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 53 \u00b7 TD5 (rows 81-100)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 53,
+      "td_start_row": 81,
+      "td_end_row": 100,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 53 \u00b7 TD6 (rows 101-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 53,
+      "td_start_row": 101,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 54 \u00b7 TD1 (rows 1-20)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 54,
+      "td_start_row": 1,
+      "td_end_row": 20,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 54 \u00b7 TD2 (rows 21-40)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 54,
+      "td_start_row": 21,
+      "td_end_row": 40,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 54 \u00b7 TD3 (rows 41-60)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 54,
+      "td_start_row": 41,
+      "td_end_row": 60,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 54 \u00b7 TD4 (rows 61-80)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 54,
+      "td_start_row": 61,
+      "td_end_row": 80,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 54 \u00b7 TD5 (rows 81-100)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 54,
+      "td_start_row": 81,
+      "td_end_row": 100,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 54 \u00b7 TD6 (rows 101-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 54,
+      "td_start_row": 101,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 55 \u00b7 TD1 (rows 1-20)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 55,
+      "td_start_row": 1,
+      "td_end_row": 20,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 55 \u00b7 TD2 (rows 21-40)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 55,
+      "td_start_row": 21,
+      "td_end_row": 40,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 55 \u00b7 TD3 (rows 41-60)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 55,
+      "td_start_row": 41,
+      "td_end_row": 60,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 55 \u00b7 TD4 (rows 61-80)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 55,
+      "td_start_row": 61,
+      "td_end_row": 80,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 55 \u00b7 TD5 (rows 81-100)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 55,
+      "td_start_row": 81,
+      "td_end_row": 100,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 55 \u00b7 TD6 (rows 101-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 55,
+      "td_start_row": 101,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 56 \u00b7 TD1 (rows 1-20)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 56,
+      "td_start_row": 1,
+      "td_end_row": 20,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 56 \u00b7 TD2 (rows 21-40)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 56,
+      "td_start_row": 21,
+      "td_end_row": 40,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 56 \u00b7 TD3 (rows 41-60)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 56,
+      "td_start_row": 41,
+      "td_end_row": 60,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 56 \u00b7 TD4 (rows 61-80)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 56,
+      "td_start_row": 61,
+      "td_end_row": 80,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 56 \u00b7 TD5 (rows 81-100)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 56,
+      "td_start_row": 81,
+      "td_end_row": 100,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 56 \u00b7 TD6 (rows 101-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 56,
+      "td_start_row": 101,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 57 \u00b7 TD1 (rows 1-20)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 57,
+      "td_start_row": 1,
+      "td_end_row": 20,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 57 \u00b7 TD2 (rows 21-40)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 57,
+      "td_start_row": 21,
+      "td_end_row": 40,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 57 \u00b7 TD3 (rows 41-60)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 57,
+      "td_start_row": 41,
+      "td_end_row": 60,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 57 \u00b7 TD4 (rows 61-80)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 57,
+      "td_start_row": 61,
+      "td_end_row": 80,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 57 \u00b7 TD5 (rows 81-100)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 57,
+      "td_start_row": 81,
+      "td_end_row": 100,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 57 \u00b7 TD6 (rows 101-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 57,
+      "td_start_row": 101,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 58 \u00b7 TD1 (rows 1-20)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 58,
+      "td_start_row": 1,
+      "td_end_row": 20,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 58 \u00b7 TD2 (rows 21-40)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 58,
+      "td_start_row": 21,
+      "td_end_row": 40,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 58 \u00b7 TD3 (rows 41-60)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 58,
+      "td_start_row": 41,
+      "td_end_row": 60,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 58 \u00b7 TD4 (rows 61-80)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 58,
+      "td_start_row": 61,
+      "td_end_row": 80,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 58 \u00b7 TD5 (rows 81-100)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 58,
+      "td_start_row": 81,
+      "td_end_row": 100,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 58 \u00b7 TD6 (rows 101-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 58,
+      "td_start_row": 101,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 59 \u00b7 TD1 (rows 1-20)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 59,
+      "td_start_row": 1,
+      "td_end_row": 20,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 59 \u00b7 TD2 (rows 21-40)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 59,
+      "td_start_row": 21,
+      "td_end_row": 40,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 59 \u00b7 TD3 (rows 41-60)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 59,
+      "td_start_row": 41,
+      "td_end_row": 60,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 59 \u00b7 TD4 (rows 61-80)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 59,
+      "td_start_row": 61,
+      "td_end_row": 80,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 59 \u00b7 TD5 (rows 81-100)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 59,
+      "td_start_row": 81,
+      "td_end_row": 100,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 59 \u00b7 TD6 (rows 101-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 59,
+      "td_start_row": 101,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 60 \u00b7 TD1 (rows 1-20)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 60,
+      "td_start_row": 1,
+      "td_end_row": 20,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 60 \u00b7 TD2 (rows 21-40)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 60,
+      "td_start_row": 21,
+      "td_end_row": 40,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 60 \u00b7 TD3 (rows 41-60)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 60,
+      "td_start_row": 41,
+      "td_end_row": 60,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 60 \u00b7 TD4 (rows 61-80)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 60,
+      "td_start_row": 61,
+      "td_end_row": 80,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 60 \u00b7 TD5 (rows 81-100)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 60,
+      "td_start_row": 81,
+      "td_end_row": 100,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 60 \u00b7 TD6 (rows 101-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 60,
+      "td_start_row": 101,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 61 \u00b7 TD1 (rows 6-25)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 61,
+      "td_start_row": 6,
+      "td_end_row": 25,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 61 \u00b7 TD2 (rows 26-45)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 61,
+      "td_start_row": 26,
+      "td_end_row": 45,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 61 \u00b7 TD3 (rows 46-65)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 61,
+      "td_start_row": 46,
+      "td_end_row": 65,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 61 \u00b7 TD4 (rows 66-85)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 61,
+      "td_start_row": 66,
+      "td_end_row": 85,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 61 \u00b7 TD5 (rows 86-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 61,
+      "td_start_row": 86,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 62 \u00b7 TD1 (rows 6-25)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 62,
+      "td_start_row": 6,
+      "td_end_row": 25,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 62 \u00b7 TD2 (rows 26-45)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 62,
+      "td_start_row": 26,
+      "td_end_row": 45,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 62 \u00b7 TD3 (rows 46-65)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 62,
+      "td_start_row": 46,
+      "td_end_row": 65,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 62 \u00b7 TD4 (rows 66-85)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 62,
+      "td_start_row": 66,
+      "td_end_row": 85,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 62 \u00b7 TD5 (rows 86-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 62,
+      "td_start_row": 86,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 63 \u00b7 TD1 (rows 6-25)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 63,
+      "td_start_row": 6,
+      "td_end_row": 25,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 63 \u00b7 TD2 (rows 26-45)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 63,
+      "td_start_row": 26,
+      "td_end_row": 45,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 63 \u00b7 TD3 (rows 46-65)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 63,
+      "td_start_row": 46,
+      "td_end_row": 65,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 63 \u00b7 TD4 (rows 66-85)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 63,
+      "td_start_row": 66,
+      "td_end_row": 85,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 63 \u00b7 TD5 (rows 86-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 63,
+      "td_start_row": 86,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 64 \u00b7 TD1 (rows 6-25)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 64,
+      "td_start_row": 6,
+      "td_end_row": 25,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 64 \u00b7 TD2 (rows 26-45)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 64,
+      "td_start_row": 26,
+      "td_end_row": 45,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 64 \u00b7 TD3 (rows 46-65)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 64,
+      "td_start_row": 46,
+      "td_end_row": 65,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 64 \u00b7 TD4 (rows 66-85)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 64,
+      "td_start_row": 66,
+      "td_end_row": 85,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 64 \u00b7 TD5 (rows 86-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 64,
+      "td_start_row": 86,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 65 \u00b7 TD1 (rows 6-25)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 65,
+      "td_start_row": 6,
+      "td_end_row": 25,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 65 \u00b7 TD2 (rows 26-45)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 65,
+      "td_start_row": 26,
+      "td_end_row": 45,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 65 \u00b7 TD3 (rows 46-65)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 65,
+      "td_start_row": 46,
+      "td_end_row": 65,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 65 \u00b7 TD4 (rows 66-85)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 65,
+      "td_start_row": 66,
+      "td_end_row": 85,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 65 \u00b7 TD5 (rows 86-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 65,
+      "td_start_row": 86,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 66 \u00b7 TD1 (rows 6-25)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 66,
+      "td_start_row": 6,
+      "td_end_row": 25,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 66 \u00b7 TD2 (rows 26-45)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 66,
+      "td_start_row": 26,
+      "td_end_row": 45,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 66 \u00b7 TD3 (rows 46-65)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 66,
+      "td_start_row": 46,
+      "td_end_row": 65,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 66 \u00b7 TD4 (rows 66-85)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 66,
+      "td_start_row": 66,
+      "td_end_row": 85,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 66 \u00b7 TD5 (rows 86-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 66,
+      "td_start_row": 86,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 67 \u00b7 TD1 (rows 6-25)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 67,
+      "td_start_row": 6,
+      "td_end_row": 25,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 67 \u00b7 TD2 (rows 26-45)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 67,
+      "td_start_row": 26,
+      "td_end_row": 45,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 67 \u00b7 TD3 (rows 46-65)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 67,
+      "td_start_row": 46,
+      "td_end_row": 65,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 67 \u00b7 TD4 (rows 66-85)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 67,
+      "td_start_row": 66,
+      "td_end_row": 85,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 67 \u00b7 TD5 (rows 86-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 67,
+      "td_start_row": 86,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 68 \u00b7 TD1 (rows 6-25)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 68,
+      "td_start_row": 6,
+      "td_end_row": 25,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 68 \u00b7 TD2 (rows 26-45)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 68,
+      "td_start_row": 26,
+      "td_end_row": 45,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 68 \u00b7 TD3 (rows 46-65)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 68,
+      "td_start_row": 46,
+      "td_end_row": 65,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 68 \u00b7 TD4 (rows 66-85)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 68,
+      "td_start_row": 66,
+      "td_end_row": 85,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 68 \u00b7 TD5 (rows 86-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 68,
+      "td_start_row": 86,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 69 \u00b7 TD1 (rows 6-25)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 69,
+      "td_start_row": 6,
+      "td_end_row": 25,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 69 \u00b7 TD2 (rows 26-45)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 69,
+      "td_start_row": 26,
+      "td_end_row": 45,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 69 \u00b7 TD3 (rows 46-65)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 69,
+      "td_start_row": 46,
+      "td_end_row": 65,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 69 \u00b7 TD4 (rows 66-85)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 69,
+      "td_start_row": 66,
+      "td_end_row": 85,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 69 \u00b7 TD5 (rows 86-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 69,
+      "td_start_row": 86,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 70 \u00b7 TD1 (rows 6-25)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 70,
+      "td_start_row": 6,
+      "td_end_row": 25,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 70 \u00b7 TD2 (rows 26-45)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 70,
+      "td_start_row": 26,
+      "td_end_row": 45,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 70 \u00b7 TD3 (rows 46-65)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 70,
+      "td_start_row": 46,
+      "td_end_row": 65,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 70 \u00b7 TD4 (rows 66-85)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 70,
+      "td_start_row": 66,
+      "td_end_row": 85,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 70 \u00b7 TD5 (rows 86-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 70,
+      "td_start_row": 86,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 71 \u00b7 TD1 (rows 6-25)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 71,
+      "td_start_row": 6,
+      "td_end_row": 25,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 71 \u00b7 TD2 (rows 26-45)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 71,
+      "td_start_row": 26,
+      "td_end_row": 45,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 71 \u00b7 TD3 (rows 46-65)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 71,
+      "td_start_row": 46,
+      "td_end_row": 65,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 71 \u00b7 TD4 (rows 66-85)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 71,
+      "td_start_row": 66,
+      "td_end_row": 85,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 71 \u00b7 TD5 (rows 86-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 71,
+      "td_start_row": 86,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 72 \u00b7 TD1 (rows 6-25)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 72,
+      "td_start_row": 6,
+      "td_end_row": 25,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 72 \u00b7 TD2 (rows 26-45)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 72,
+      "td_start_row": 26,
+      "td_end_row": 45,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 72 \u00b7 TD3 (rows 46-65)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 72,
+      "td_start_row": 46,
+      "td_end_row": 65,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 72 \u00b7 TD4 (rows 66-85)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 72,
+      "td_start_row": 66,
+      "td_end_row": 85,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 72 \u00b7 TD5 (rows 86-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 72,
+      "td_start_row": 86,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 73 \u00b7 TD1 (rows 6-25)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 73,
+      "td_start_row": 6,
+      "td_end_row": 25,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 73 \u00b7 TD2 (rows 26-45)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 73,
+      "td_start_row": 26,
+      "td_end_row": 45,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 73 \u00b7 TD3 (rows 46-65)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 73,
+      "td_start_row": 46,
+      "td_end_row": 65,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 73 \u00b7 TD4 (rows 66-85)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 73,
+      "td_start_row": 66,
+      "td_end_row": 85,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 73 \u00b7 TD5 (rows 86-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 73,
+      "td_start_row": 86,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 74 \u00b7 TD1 (rows 6-25)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 74,
+      "td_start_row": 6,
+      "td_end_row": 25,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 74 \u00b7 TD2 (rows 26-45)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 74,
+      "td_start_row": 26,
+      "td_end_row": 45,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 74 \u00b7 TD3 (rows 46-65)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 74,
+      "td_start_row": 46,
+      "td_end_row": 65,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 74 \u00b7 TD4 (rows 66-85)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 74,
+      "td_start_row": 66,
+      "td_end_row": 85,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 74 \u00b7 TD5 (rows 86-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 74,
+      "td_start_row": 86,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 75 \u00b7 TD1 (rows 6-25)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 75,
+      "td_start_row": 6,
+      "td_end_row": 25,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 75 \u00b7 TD2 (rows 26-45)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 75,
+      "td_start_row": 26,
+      "td_end_row": 45,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 75 \u00b7 TD3 (rows 46-65)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 75,
+      "td_start_row": 46,
+      "td_end_row": 65,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 75 \u00b7 TD4 (rows 66-85)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 75,
+      "td_start_row": 66,
+      "td_end_row": 85,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 75 \u00b7 TD5 (rows 86-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 75,
+      "td_start_row": 86,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 76 \u00b7 TD1 (rows 11-30)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 76,
+      "td_start_row": 11,
+      "td_end_row": 30,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 76 \u00b7 TD2 (rows 31-50)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 76,
+      "td_start_row": 31,
+      "td_end_row": 50,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 76 \u00b7 TD3 (rows 51-70)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 76,
+      "td_start_row": 51,
+      "td_end_row": 70,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 76 \u00b7 TD4 (rows 71-90)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 76,
+      "td_start_row": 71,
+      "td_end_row": 90,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 76 \u00b7 TD5 (rows 91-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 76,
+      "td_start_row": 91,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 77 \u00b7 TD1 (rows 11-30)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 77,
+      "td_start_row": 11,
+      "td_end_row": 30,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 77 \u00b7 TD2 (rows 31-50)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 77,
+      "td_start_row": 31,
+      "td_end_row": 50,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 77 \u00b7 TD3 (rows 51-70)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 77,
+      "td_start_row": 51,
+      "td_end_row": 70,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 77 \u00b7 TD4 (rows 71-90)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 77,
+      "td_start_row": 71,
+      "td_end_row": 90,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 77 \u00b7 TD5 (rows 91-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 77,
+      "td_start_row": 91,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 78 \u00b7 TD1 (rows 11-30)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 78,
+      "td_start_row": 11,
+      "td_end_row": 30,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 78 \u00b7 TD2 (rows 31-50)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 78,
+      "td_start_row": 31,
+      "td_end_row": 50,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 78 \u00b7 TD3 (rows 51-70)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 78,
+      "td_start_row": 51,
+      "td_end_row": 70,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 78 \u00b7 TD4 (rows 71-90)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 78,
+      "td_start_row": 71,
+      "td_end_row": 90,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 78 \u00b7 TD5 (rows 91-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 78,
+      "td_start_row": 91,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 79 \u00b7 TD1 (rows 11-30)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 79,
+      "td_start_row": 11,
+      "td_end_row": 30,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 79 \u00b7 TD2 (rows 31-50)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 79,
+      "td_start_row": 31,
+      "td_end_row": 50,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 79 \u00b7 TD3 (rows 51-70)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 79,
+      "td_start_row": 51,
+      "td_end_row": 70,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 79 \u00b7 TD4 (rows 71-90)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 79,
+      "td_start_row": 71,
+      "td_end_row": 90,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 79 \u00b7 TD5 (rows 91-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 79,
+      "td_start_row": 91,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 80 \u00b7 TD1 (rows 11-30)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 80,
+      "td_start_row": 11,
+      "td_end_row": 30,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 80 \u00b7 TD2 (rows 31-50)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 80,
+      "td_start_row": 31,
+      "td_end_row": 50,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 80 \u00b7 TD3 (rows 51-70)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 80,
+      "td_start_row": 51,
+      "td_end_row": 70,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 80 \u00b7 TD4 (rows 71-90)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 80,
+      "td_start_row": 71,
+      "td_end_row": 90,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 80 \u00b7 TD5 (rows 91-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 80,
+      "td_start_row": 91,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 81 \u00b7 TD1 (rows 11-30)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 81,
+      "td_start_row": 11,
+      "td_end_row": 30,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 81 \u00b7 TD2 (rows 31-50)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 81,
+      "td_start_row": 31,
+      "td_end_row": 50,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 81 \u00b7 TD3 (rows 51-70)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 81,
+      "td_start_row": 51,
+      "td_end_row": 70,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 81 \u00b7 TD4 (rows 71-90)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 81,
+      "td_start_row": 71,
+      "td_end_row": 90,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 81 \u00b7 TD5 (rows 91-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 81,
+      "td_start_row": 91,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 82 \u00b7 TD1 (rows 11-30)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 82,
+      "td_start_row": 11,
+      "td_end_row": 30,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 82 \u00b7 TD2 (rows 31-50)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 82,
+      "td_start_row": 31,
+      "td_end_row": 50,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 82 \u00b7 TD3 (rows 51-70)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 82,
+      "td_start_row": 51,
+      "td_end_row": 70,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 82 \u00b7 TD4 (rows 71-90)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 82,
+      "td_start_row": 71,
+      "td_end_row": 90,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 82 \u00b7 TD5 (rows 91-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 82,
+      "td_start_row": 91,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 83 \u00b7 TD1 (rows 11-30)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 83,
+      "td_start_row": 11,
+      "td_end_row": 30,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 83 \u00b7 TD2 (rows 31-50)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 83,
+      "td_start_row": 31,
+      "td_end_row": 50,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 83 \u00b7 TD3 (rows 51-70)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 83,
+      "td_start_row": 51,
+      "td_end_row": 70,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 83 \u00b7 TD4 (rows 71-90)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 83,
+      "td_start_row": 71,
+      "td_end_row": 90,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 83 \u00b7 TD5 (rows 91-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 83,
+      "td_start_row": 91,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 84 \u00b7 TD1 (rows 11-30)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 84,
+      "td_start_row": 11,
+      "td_end_row": 30,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 84 \u00b7 TD2 (rows 31-50)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 84,
+      "td_start_row": 31,
+      "td_end_row": 50,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 84 \u00b7 TD3 (rows 51-70)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 84,
+      "td_start_row": 51,
+      "td_end_row": 70,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 84 \u00b7 TD4 (rows 71-90)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 84,
+      "td_start_row": 71,
+      "td_end_row": 90,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 84 \u00b7 TD5 (rows 91-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 84,
+      "td_start_row": 91,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 85 \u00b7 TD1 (rows 11-30)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 85,
+      "td_start_row": 11,
+      "td_end_row": 30,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 85 \u00b7 TD2 (rows 31-50)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 85,
+      "td_start_row": 31,
+      "td_end_row": 50,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 85 \u00b7 TD3 (rows 51-70)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 85,
+      "td_start_row": 51,
+      "td_end_row": 70,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 85 \u00b7 TD4 (rows 71-90)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 85,
+      "td_start_row": 71,
+      "td_end_row": 90,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 85 \u00b7 TD5 (rows 91-105)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 85,
+      "td_start_row": 91,
+      "td_end_row": 105,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 86 \u00b7 TD1 (rows 16-35)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 86,
+      "td_start_row": 16,
+      "td_end_row": 35,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 86 \u00b7 TD2 (rows 36-55)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 86,
+      "td_start_row": 36,
+      "td_end_row": 55,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 86 \u00b7 TD3 (rows 56-75)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 86,
+      "td_start_row": 56,
+      "td_end_row": 75,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 86 \u00b7 TD4 (rows 76-95)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 86,
+      "td_start_row": 76,
+      "td_end_row": 95,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 87 \u00b7 TD1 (rows 16-35)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 87,
+      "td_start_row": 16,
+      "td_end_row": 35,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 87 \u00b7 TD2 (rows 36-55)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 87,
+      "td_start_row": 36,
+      "td_end_row": 55,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 87 \u00b7 TD3 (rows 56-75)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 87,
+      "td_start_row": 56,
+      "td_end_row": 75,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 87 \u00b7 TD4 (rows 76-95)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 87,
+      "td_start_row": 76,
+      "td_end_row": 95,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 88 \u00b7 TD1 (rows 16-35)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 88,
+      "td_start_row": 16,
+      "td_end_row": 35,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 88 \u00b7 TD2 (rows 36-55)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 88,
+      "td_start_row": 36,
+      "td_end_row": 55,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 88 \u00b7 TD3 (rows 56-75)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 88,
+      "td_start_row": 56,
+      "td_end_row": 75,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 88 \u00b7 TD4 (rows 76-95)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 88,
+      "td_start_row": 76,
+      "td_end_row": 95,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 89 \u00b7 TD1 (rows 16-35)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 89,
+      "td_start_row": 16,
+      "td_end_row": 35,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 89 \u00b7 TD2 (rows 36-55)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 89,
+      "td_start_row": 36,
+      "td_end_row": 55,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 89 \u00b7 TD3 (rows 56-75)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 89,
+      "td_start_row": 56,
+      "td_end_row": 75,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 89 \u00b7 TD4 (rows 76-95)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 89,
+      "td_start_row": 76,
+      "td_end_row": 95,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 90 \u00b7 TD1 (rows 16-35)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 90,
+      "td_start_row": 16,
+      "td_end_row": 35,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 90 \u00b7 TD2 (rows 36-55)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 90,
+      "td_start_row": 36,
+      "td_end_row": 55,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 90 \u00b7 TD3 (rows 56-75)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 90,
+      "td_start_row": 56,
+      "td_end_row": 75,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 90 \u00b7 TD4 (rows 76-95)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 90,
+      "td_start_row": 76,
+      "td_end_row": 95,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 91 \u00b7 TD1 (rows 21-40)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 91,
+      "td_start_row": 21,
+      "td_end_row": 40,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 91 \u00b7 TD2 (rows 41-60)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 91,
+      "td_start_row": 41,
+      "td_end_row": 60,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 91 \u00b7 TD3 (rows 61-80)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 91,
+      "td_start_row": 61,
+      "td_end_row": 80,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 91 \u00b7 TD4 (rows 81-100)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 91,
+      "td_start_row": 81,
+      "td_end_row": 100,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 92 \u00b7 TD1 (rows 21-40)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 92,
+      "td_start_row": 21,
+      "td_end_row": 40,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 92 \u00b7 TD2 (rows 41-60)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 92,
+      "td_start_row": 41,
+      "td_end_row": 60,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 92 \u00b7 TD3 (rows 61-80)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 92,
+      "td_start_row": 61,
+      "td_end_row": 80,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 92 \u00b7 TD4 (rows 81-100)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 92,
+      "td_start_row": 81,
+      "td_end_row": 100,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 93 \u00b7 TD1 (rows 21-40)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 93,
+      "td_start_row": 21,
+      "td_end_row": 40,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 93 \u00b7 TD2 (rows 41-60)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 93,
+      "td_start_row": 41,
+      "td_end_row": 60,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 93 \u00b7 TD3 (rows 61-80)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 93,
+      "td_start_row": 61,
+      "td_end_row": 80,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 93 \u00b7 TD4 (rows 81-100)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 93,
+      "td_start_row": 81,
+      "td_end_row": 100,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 94 \u00b7 TD1 (rows 21-40)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 94,
+      "td_start_row": 21,
+      "td_end_row": 40,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 94 \u00b7 TD2 (rows 41-60)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 94,
+      "td_start_row": 41,
+      "td_end_row": 60,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 94 \u00b7 TD3 (rows 61-80)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 94,
+      "td_start_row": 61,
+      "td_end_row": 80,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 94 \u00b7 TD4 (rows 81-100)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 94,
+      "td_start_row": 81,
+      "td_end_row": 100,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 95 \u00b7 TD1 (rows 21-40)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 95,
+      "td_start_row": 21,
+      "td_end_row": 40,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 95 \u00b7 TD2 (rows 41-60)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 95,
+      "td_start_row": 41,
+      "td_end_row": 60,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 95 \u00b7 TD3 (rows 61-80)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 95,
+      "td_start_row": 61,
+      "td_end_row": 80,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 95 \u00b7 TD4 (rows 81-100)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 95,
+      "td_start_row": 81,
+      "td_end_row": 100,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 96 \u00b7 TD1 (rows 31-50)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 96,
+      "td_start_row": 31,
+      "td_end_row": 50,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 96 \u00b7 TD2 (rows 51-70)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 96,
+      "td_start_row": 51,
+      "td_end_row": 70,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 96 \u00b7 TD3 (rows 71-90)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 96,
+      "td_start_row": 71,
+      "td_end_row": 90,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 97 \u00b7 TD1 (rows 31-50)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 97,
+      "td_start_row": 31,
+      "td_end_row": 50,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 97 \u00b7 TD2 (rows 51-70)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 97,
+      "td_start_row": 51,
+      "td_end_row": 70,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 97 \u00b7 TD3 (rows 71-90)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 97,
+      "td_start_row": 71,
+      "td_end_row": 90,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 98 \u00b7 TD1 (rows 31-50)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 98,
+      "td_start_row": 31,
+      "td_end_row": 50,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 98 \u00b7 TD2 (rows 51-70)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 98,
+      "td_start_row": 51,
+      "td_end_row": 70,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 98 \u00b7 TD3 (rows 71-90)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 98,
+      "td_start_row": 71,
+      "td_end_row": 90,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 99 \u00b7 TD1 (rows 31-50)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 99,
+      "td_start_row": 31,
+      "td_end_row": 50,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 99 \u00b7 TD2 (rows 51-70)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 99,
+      "td_start_row": 51,
+      "td_end_row": 70,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 99 \u00b7 TD3 (rows 71-90)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 99,
+      "td_start_row": 71,
+      "td_end_row": 90,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 100 \u00b7 TD1 (rows 31-50)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 100,
+      "td_start_row": 31,
+      "td_end_row": 50,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 100 \u00b7 TD2 (rows 51-70)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 100,
+      "td_start_row": 51,
+      "td_end_row": 70,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 100 \u00b7 TD3 (rows 71-90)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 100,
+      "td_start_row": 71,
+      "td_end_row": 90,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 101 \u00b7 TD1 (rows 46-65)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 101,
+      "td_start_row": 46,
+      "td_end_row": 65,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 102 \u00b7 TD1 (rows 46-65)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 102,
+      "td_start_row": 46,
+      "td_end_row": 65,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 103 \u00b7 TD1 (rows 46-65)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 103,
+      "td_start_row": 46,
+      "td_end_row": 65,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 104 \u00b7 TD1 (rows 46-65)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 104,
+      "td_start_row": 46,
+      "td_end_row": 65,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    },
+    {
+      "label": "Col 105 \u00b7 TD1 (rows 46-65)",
+      "excluded_boards": [
+        "COM4",
+        "COM6"
+      ],
+      "die_column": 105,
+      "td_start_row": 46,
+      "td_end_row": 65,
+      "board_reasons": {
+        "COM4": "no slot assigned",
+        "COM6": "no slot assigned"
+      }
+    }
+  ]
+}

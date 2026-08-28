@@ -1,0 +1,38 @@
+[
+  {
+    "serial_number": "0002-0007",
+    "firmware": "V1.12.153",
+    "signature": "5164",
+    "usb_id": "DP05CQUCA",
+    "slot0": null,
+    "slot1": null,
+    "last_port": null
+  },
+  {
+    "serial_number": "0002-000A",
+    "firmware": "V1.12.153",
+    "signature": "5164",
+    "usb_id": "DP05CBERA",
+    "slot0": null,
+    "slot1": null,
+    "last_port": null
+  },
+  {
+    "serial_number": "0002-0015",
+    "firmware": "V1.12.153",
+    "signature": "5164",
+    "usb_id": "DP05DKO0A",
+    "slot0": null,
+    "slot1": null,
+    "last_port": "COM8"
+  },
+  {
+    "serial_number": "0002-0008",
+    "firmware": "V1.12.153",
+    "signature": "5164",
+    "usb_id": "DP05CTYTA",
+    "slot0": null,
+    "slot1": null,
+    "last_port": "COM7"
+  }
+]

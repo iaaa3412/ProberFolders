@@ -1,0 +1,66 @@
+instruments:
+  prober:
+    name: Accretech UF200R
+    protocol: GPIB
+    address: GPIB0::5::INSTR
+    timeout_ms: 3000
+  switch_matrix:
+    name: Keithley 707B
+    protocol: GPIB
+    address: GPIB0::16::INSTR
+    timeout_ms: 3000
+  smu:
+    name: Keithley 2636B
+    protocol: GPIB
+    address: ''
+    timeout_ms: 3000
+  dmm:
+    name: Keysight 34461A
+    protocol: GPIB
+    address: USB0::0x2A8D::0x1301::MY57216618::INSTR
+    timeout_ms: 3000
+  wave_gen:
+    name: Keysight 33512B
+    protocol: GPIB
+    address: GPIB0::12::INSTR
+    timeout_ms: 3000
+  prober_eg:
+    name: Electroglas 2001X
+    protocol: GPIB
+    address: GPIB0::29::INSTR
+    timeout_ms: 3000
+  smu_eg:
+    name: Keithley 2400 (SMU)
+    protocol: GPIB
+    address: GPIB0::24::INSTR
+    timeout_ms: 3000
+  dmm_eg:
+    name: HP 3458A (DMM)
+    protocol: GPIB
+    address: GPIB0::23::INSTR
+    timeout_ms: 3000
+  power_supply_eg:
+    name: Agilent 6634B (Power Supply)
+    protocol: GPIB
+    address: GPIB0::25::INSTR
+    timeout_ms: 3000
+  dmm_vxi_eg:
+    name: "HP E1326B (VXI DMM \u2014 FAILED)"
+    protocol: GPIB
+    address: GPIB0::9::7::INSTR
+    timeout_ms: 5000
+  relay1_eg:
+    name: "HP Switchbox \u2014 E1343A (spare mux)"
+    protocol: GPIB
+    address: GPIB0::9::15::INSTR
+    timeout_ms: 3000
+  relay2_eg:
+    name: "HP Switchbox \u2014 E1364A (WIRED)"
+    protocol: GPIB
+    address: GPIB0::9::10::INSTR
+    timeout_ms: 3000
+  relay3_eg:
+    name: "HP Switchbox \u2014 E1364A (spare)"
+    protocol: GPIB
+    address: GPIB0::9::14::INSTR
+    timeout_ms: 3000

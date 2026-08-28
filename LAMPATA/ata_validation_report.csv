@@ -1,0 +1,9 @@
+check_id,check,status,detail,recommendation
+CHK001,ATA naming convention,WARN,No ATA_* labels/references detected.,Ask layout to add ATA_* labels/cells per the manual.
+CHK002,Alignment marks,FAIL,No alignment marks were detected.,Add ATA_ALIGN_* cells/labels or update the search names.
+CHK003,Die origin,WARN,No ATA_DIE_ORIGIN marker detected.,Place an ATA_DIE_ORIGIN text label at the intended die coordinate origin.
+CHK004,Die/device boundary,PASS,Boundary information available from selected cell bounding box fallback.,
+CHK005,Probe pad extraction,WARN,No pad candidates or ATA_PAD_* labels detected.,Provide pad layer/datatype and label pads with ATA_PAD_<name>.
+CHK006,Device/test structure labels,WARN,No ATA_DEVICE_* or ATA_TEST_* labels detected.,Add labels to make future test-plan generation automatic.
+CHK007,Sidecar metadata JSON,WARN,No layout metadata JSON was loaded.,Provide <gds_basename>_metadata.json or ata_layout_metadata.json with wafer/die/layer definitions.
+CHK008,Required metadata fields,WARN,"Missing metadata fields: wafer_diameter_mm, die_pitch_x_um, die_pitch_y_um, origin_definition, pad_layer",Add the missing fields to the sidecar metadata JSON.

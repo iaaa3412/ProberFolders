@@ -1,0 +1,810 @@
+{
+  "shot_rows": "1",
+  "shot_cols": "1",
+  "die_pitch_x": "8700",
+  "die_pitch_y": "8700",
+  "shot_pitch_x": "",
+  "shot_pitch_y": "",
+  "shot_cells": {
+    "0,0": {
+      "present": true
+    }
+  },
+  "shotmap_rows": "14",
+  "shotmap_cols": "14",
+  "shotmap_cells": {
+    "0,0": false,
+    "0,1": false,
+    "0,2": false,
+    "0,3": false,
+    "0,4": false,
+    "0,5": true,
+    "0,6": true,
+    "0,7": true,
+    "0,8": true,
+    "0,9": false,
+    "0,10": false,
+    "0,11": false,
+    "0,12": false,
+    "0,13": false,
+    "1,0": false,
+    "1,1": false,
+    "1,2": false,
+    "1,3": true,
+    "1,4": true,
+    "1,5": true,
+    "1,6": true,
+    "1,7": true,
+    "1,8": true,
+    "1,9": true,
+    "1,10": true,
+    "1,11": false,
+    "1,12": false,
+    "1,13": false,
+    "2,0": false,
+    "2,1": false,
+    "2,2": true,
+    "2,3": true,
+    "2,4": true,
+    "2,5": true,
+    "2,6": true,
+    "2,7": true,
+    "2,8": true,
+    "2,9": true,
+    "2,10": true,
+    "2,11": true,
+    "2,12": false,
+    "2,13": false,
+    "3,0": false,
+    "3,1": true,
+    "3,2": true,
+    "3,3": true,
+    "3,4": true,
+    "3,5": true,
+    "3,6": true,
+    "3,7": true,
+    "3,8": true,
+    "3,9": true,
+    "3,10": true,
+    "3,11": true,
+    "3,12": true,
+    "3,13": false,
+    "4,0": false,
+    "4,1": true,
+    "4,2": true,
+    "4,3": true,
+    "4,4": true,
+    "4,5": true,
+    "4,6": true,
+    "4,7": true,
+    "4,8": true,
+    "4,9": true,
+    "4,10": true,
+    "4,11": true,
+    "4,12": true,
+    "4,13": false,
+    "5,0": true,
+    "5,1": true,
+    "5,2": true,
+    "5,3": true,
+    "5,4": true,
+    "5,5": true,
+    "5,6": true,
+    "5,7": true,
+    "5,8": true,
+    "5,9": true,
+    "5,10": true,
+    "5,11": true,
+    "5,12": true,
+    "5,13": true,
+    "6,0": true,
+    "6,1": true,
+    "6,2": true,
+    "6,3": true,
+    "6,4": true,
+    "6,5": true,
+    "6,6": true,
+    "6,7": true,
+    "6,8": true,
+    "6,9": true,
+    "6,10": true,
+    "6,11": true,
+    "6,12": true,
+    "6,13": true,
+    "7,0": true,
+    "7,1": true,
+    "7,2": true,
+    "7,3": true,
+    "7,4": true,
+    "7,5": true,
+    "7,6": true,
+    "7,7": true,
+    "7,8": true,
+    "7,9": true,
+    "7,10": true,
+    "7,11": true,
+    "7,12": true,
+    "7,13": true,
+    "8,0": true,
+    "8,1": true,
+    "8,2": true,
+    "8,3": true,
+    "8,4": true,
+    "8,5": true,
+    "8,6": true,
+    "8,7": true,
+    "8,8": true,
+    "8,9": true,
+    "8,10": true,
+    "8,11": true,
+    "8,12": true,
+    "8,13": true,
+    "9,0": false,
+    "9,1": true,
+    "9,2": true,
+    "9,3": true,
+    "9,4": true,
+    "9,5": true,
+    "9,6": true,
+    "9,7": true,
+    "9,8": true,
+    "9,9": true,
+    "9,10": true,
+    "9,11": true,
+    "9,12": true,
+    "9,13": false,
+    "10,0": false,
+    "10,1": true,
+    "10,2": true,
+    "10,3": true,
+    "10,4": true,
+    "10,5": true,
+    "10,6": true,
+    "10,7": true,
+    "10,8": true,
+    "10,9": true,
+    "10,10": true,
+    "10,11": true,
+    "10,12": true,
+    "10,13": false,
+    "11,0": false,
+    "11,1": false,
+    "11,2": true,
+    "11,3": true,
+    "11,4": true,
+    "11,5": true,
+    "11,6": true,
+    "11,7": true,
+    "11,8": true,
+    "11,9": true,
+    "11,10": true,
+    "11,11": true,
+    "11,12": false,
+    "11,13": false,
+    "12,0": false,
+    "12,1": false,
+    "12,2": false,
+    "12,3": true,
+    "12,4": true,
+    "12,5": true,
+    "12,6": true,
+    "12,7": true,
+    "12,8": true,
+    "12,9": true,
+    "12,10": true,
+    "12,11": false,
+    "12,12": false,
+    "12,13": false,
+    "13,0": false,
+    "13,1": false,
+    "13,2": false,
+    "13,3": false,
+    "13,4": false,
+    "13,5": true,
+    "13,6": true,
+    "13,7": true,
+    "13,8": true,
+    "13,9": false,
+    "13,10": false,
+    "13,11": false,
+    "13,12": false,
+    "13,13": false
+  },
+  "die_status": {
+    "5,5,0,0": {
+      "die_id": "52",
+      "status": "normal"
+    },
+    "0,5,0,0": {
+      "die_id": "1",
+      "status": "normal"
+    },
+    "0,6,0,0": {
+      "die_id": "2",
+      "status": "normal"
+    },
+    "0,7,0,0": {
+      "die_id": "3",
+      "status": "normal"
+    },
+    "0,8,0,0": {
+      "die_id": "4",
+      "status": "normal"
+    },
+    "1,3,0,0": {
+      "die_id": "5",
+      "status": "normal"
+    },
+    "1,4,0,0": {
+      "die_id": "6",
+      "status": "normal"
+    },
+    "1,5,0,0": {
+      "die_id": "7",
+      "status": "normal"
+    },
+    "1,6,0,0": {
+      "die_id": "8",
+      "status": "normal"
+    },
+    "1,7,0,0": {
+      "die_id": "9",
+      "status": "normal"
+    },
+    "1,8,0,0": {
+      "die_id": "10",
+      "status": "normal"
+    },
+    "1,9,0,0": {
+      "die_id": "11",
+      "status": "normal"
+    },
+    "1,10,0,0": {
+      "die_id": "12",
+      "status": "normal"
+    },
+    "2,2,0,0": {
+      "die_id": "13",
+      "status": "normal"
+    },
+    "2,3,0,0": {
+      "die_id": "14",
+      "status": "normal"
+    },
+    "2,4,0,0": {
+      "die_id": "15",
+      "status": "normal"
+    },
+    "2,5,0,0": {
+      "die_id": "16",
+      "status": "normal"
+    },
+    "2,6,0,0": {
+      "die_id": "17",
+      "status": "normal"
+    },
+    "2,7,0,0": {
+      "die_id": "18",
+      "status": "normal"
+    },
+    "2,8,0,0": {
+      "die_id": "19",
+      "status": "normal"
+    },
+    "2,9,0,0": {
+      "die_id": "20",
+      "status": "normal"
+    },
+    "2,10,0,0": {
+      "die_id": "21",
+      "status": "normal"
+    },
+    "2,11,0,0": {
+      "die_id": "22",
+      "status": "normal"
+    },
+    "3,1,0,0": {
+      "die_id": "23",
+      "status": "normal"
+    },
+    "3,2,0,0": {
+      "die_id": "24",
+      "status": "normal"
+    },
+    "3,3,0,0": {
+      "die_id": "25",
+      "status": "normal"
+    },
+    "3,4,0,0": {
+      "die_id": "26",
+      "status": "normal"
+    },
+    "3,5,0,0": {
+      "die_id": "27",
+      "status": "normal"
+    },
+    "3,6,0,0": {
+      "die_id": "28",
+      "status": "normal"
+    },
+    "3,7,0,0": {
+      "die_id": "29",
+      "status": "normal"
+    },
+    "3,8,0,0": {
+      "die_id": "30",
+      "status": "normal"
+    },
+    "3,9,0,0": {
+      "die_id": "31",
+      "status": "normal"
+    },
+    "3,10,0,0": {
+      "die_id": "32",
+      "status": "normal"
+    },
+    "3,11,0,0": {
+      "die_id": "33",
+      "status": "normal"
+    },
+    "3,12,0,0": {
+      "die_id": "34",
+      "status": "normal"
+    },
+    "4,1,0,0": {
+      "die_id": "35",
+      "status": "normal"
+    },
+    "4,2,0,0": {
+      "die_id": "36",
+      "status": "normal"
+    },
+    "4,3,0,0": {
+      "die_id": "37",
+      "status": "normal"
+    },
+    "4,4,0,0": {
+      "die_id": "38",
+      "status": "normal"
+    },
+    "4,5,0,0": {
+      "die_id": "39",
+      "status": "normal"
+    },
+    "4,6,0,0": {
+      "die_id": "40",
+      "status": "normal"
+    },
+    "4,7,0,0": {
+      "die_id": "41",
+      "status": "normal"
+    },
+    "4,8,0,0": {
+      "die_id": "42",
+      "status": "normal"
+    },
+    "4,9,0,0": {
+      "die_id": "43",
+      "status": "normal"
+    },
+    "4,10,0,0": {
+      "die_id": "44",
+      "status": "normal"
+    },
+    "4,11,0,0": {
+      "die_id": "45",
+      "status": "normal"
+    },
+    "4,12,0,0": {
+      "die_id": "46",
+      "status": "normal"
+    },
+    "5,0,0,0": {
+      "die_id": "47",
+      "status": "normal"
+    },
+    "5,1,0,0": {
+      "die_id": "48",
+      "status": "normal"
+    },
+    "5,2,0,0": {
+      "die_id": "49",
+      "status": "normal"
+    },
+    "5,3,0,0": {
+      "die_id": "50",
+      "status": "normal"
+    },
+    "5,4,0,0": {
+      "die_id": "51",
+      "status": "normal"
+    },
+    "5,6,0,0": {
+      "die_id": "53",
+      "status": "normal"
+    },
+    "5,7,0,0": {
+      "die_id": "54",
+      "status": "normal"
+    },
+    "5,8,0,0": {
+      "die_id": "55",
+      "status": "normal"
+    },
+    "5,9,0,0": {
+      "die_id": "56",
+      "status": "normal"
+    },
+    "5,10,0,0": {
+      "die_id": "57",
+      "status": "normal"
+    },
+    "5,11,0,0": {
+      "die_id": "58",
+      "status": "normal"
+    },
+    "5,12,0,0": {
+      "die_id": "59",
+      "status": "normal"
+    },
+    "5,13,0,0": {
+      "die_id": "60",
+      "status": "normal"
+    },
+    "6,0,0,0": {
+      "die_id": "61",
+      "status": "normal"
+    },
+    "6,1,0,0": {
+      "die_id": "62",
+      "status": "normal"
+    },
+    "6,2,0,0": {
+      "die_id": "63",
+      "status": "normal"
+    },
+    "6,3,0,0": {
+      "die_id": "64",
+      "status": "normal"
+    },
+    "6,4,0,0": {
+      "die_id": "65",
+      "status": "normal"
+    },
+    "6,5,0,0": {
+      "die_id": "66",
+      "status": "normal"
+    },
+    "6,6,0,0": {
+      "die_id": "67",
+      "status": "normal"
+    },
+    "6,7,0,0": {
+      "die_id": "68",
+      "status": "normal"
+    },
+    "6,8,0,0": {
+      "die_id": "69",
+      "status": "normal"
+    },
+    "6,9,0,0": {
+      "die_id": "70",
+      "status": "normal"
+    },
+    "6,10,0,0": {
+      "die_id": "71",
+      "status": "normal"
+    },
+    "6,11,0,0": {
+      "die_id": "72",
+      "status": "normal"
+    },
+    "6,12,0,0": {
+      "die_id": "73",
+      "status": "normal"
+    },
+    "6,13,0,0": {
+      "die_id": "74",
+      "status": "normal"
+    },
+    "7,0,0,0": {
+      "die_id": "75",
+      "status": "normal"
+    },
+    "7,1,0,0": {
+      "die_id": "76",
+      "status": "normal"
+    },
+    "7,2,0,0": {
+      "die_id": "77",
+      "status": "normal"
+    },
+    "7,3,0,0": {
+      "die_id": "78",
+      "status": "normal"
+    },
+    "7,4,0,0": {
+      "die_id": "79",
+      "status": "normal"
+    },
+    "7,5,0,0": {
+      "die_id": "80",
+      "status": "normal"
+    },
+    "7,6,0,0": {
+      "die_id": "81",
+      "status": "normal"
+    },
+    "7,7,0,0": {
+      "die_id": "82",
+      "status": "normal"
+    },
+    "7,8,0,0": {
+      "die_id": "83",
+      "status": "normal"
+    },
+    "7,9,0,0": {
+      "die_id": "84",
+      "status": "normal"
+    },
+    "7,10,0,0": {
+      "die_id": "85",
+      "status": "normal"
+    },
+    "7,11,0,0": {
+      "die_id": "86",
+      "status": "normal"
+    },
+    "7,12,0,0": {
+      "die_id": "87",
+      "status": "normal"
+    },
+    "7,13,0,0": {
+      "die_id": "88",
+      "status": "normal"
+    },
+    "8,0,0,0": {
+      "die_id": "89",
+      "status": "normal"
+    },
+    "8,1,0,0": {
+      "die_id": "90",
+      "status": "normal"
+    },
+    "8,2,0,0": {
+      "die_id": "91",
+      "status": "normal"
+    },
+    "8,3,0,0": {
+      "die_id": "92",
+      "status": "normal"
+    },
+    "8,4,0,0": {
+      "die_id": "93",
+      "status": "normal"
+    },
+    "8,5,0,0": {
+      "die_id": "94",
+      "status": "normal"
+    },
+    "8,6,0,0": {
+      "die_id": "95",
+      "status": "normal"
+    },
+    "8,7,0,0": {
+      "die_id": "96",
+      "status": "normal"
+    },
+    "8,8,0,0": {
+      "die_id": "97",
+      "status": "normal"
+    },
+    "8,9,0,0": {
+      "die_id": "98",
+      "status": "normal"
+    },
+    "8,10,0,0": {
+      "die_id": "99",
+      "status": "normal"
+    },
+    "8,11,0,0": {
+      "die_id": "100",
+      "status": "normal"
+    },
+    "8,12,0,0": {
+      "die_id": "101",
+      "status": "normal"
+    },
+    "8,13,0,0": {
+      "die_id": "102",
+      "status": "normal"
+    },
+    "9,1,0,0": {
+      "die_id": "103",
+      "status": "normal"
+    },
+    "9,2,0,0": {
+      "die_id": "104",
+      "status": "normal"
+    },
+    "9,3,0,0": {
+      "die_id": "105",
+      "status": "normal"
+    },
+    "9,4,0,0": {
+      "die_id": "106",
+      "status": "normal"
+    },
+    "9,5,0,0": {
+      "die_id": "107",
+      "status": "normal"
+    },
+    "9,6,0,0": {
+      "die_id": "108",
+      "status": "normal"
+    },
+    "9,7,0,0": {
+      "die_id": "109",
+      "status": "normal"
+    },
+    "9,8,0,0": {
+      "die_id": "110",
+      "status": "normal"
+    },
+    "9,9,0,0": {
+      "die_id": "111",
+      "status": "normal"
+    },
+    "9,10,0,0": {
+      "die_id": "112",
+      "status": "normal"
+    },
+    "9,11,0,0": {
+      "die_id": "113",
+      "status": "normal"
+    },
+    "9,12,0,0": {
+      "die_id": "114",
+      "status": "normal"
+    },
+    "10,1,0,0": {
+      "die_id": "115",
+      "status": "normal"
+    },
+    "10,2,0,0": {
+      "die_id": "116",
+      "status": "normal"
+    },
+    "10,3,0,0": {
+      "die_id": "117",
+      "status": "normal"
+    },
+    "10,4,0,0": {
+      "die_id": "118",
+      "status": "normal"
+    },
+    "10,5,0,0": {
+      "die_id": "119",
+      "status": "normal"
+    },
+    "10,6,0,0": {
+      "die_id": "120",
+      "status": "normal"
+    },
+    "10,7,0,0": {
+      "die_id": "121",
+      "status": "normal"
+    },
+    "10,8,0,0": {
+      "die_id": "122",
+      "status": "normal"
+    },
+    "10,9,0,0": {
+      "die_id": "123",
+      "status": "normal"
+    },
+    "10,10,0,0": {
+      "die_id": "124",
+      "status": "normal"
+    },
+    "10,11,0,0": {
+      "die_id": "125",
+      "status": "normal"
+    },
+    "10,12,0,0": {
+      "die_id": "126",
+      "status": "normal"
+    },
+    "11,2,0,0": {
+      "die_id": "127",
+      "status": "normal"
+    },
+    "11,3,0,0": {
+      "die_id": "128",
+      "status": "normal"
+    },
+    "11,4,0,0": {
+      "die_id": "129",
+      "status": "normal"
+    },
+    "11,5,0,0": {
+      "die_id": "130",
+      "status": "normal"
+    },
+    "11,6,0,0": {
+      "die_id": "131",
+      "status": "normal"
+    },
+    "11,7,0,0": {
+      "die_id": "132",
+      "status": "normal"
+    },
+    "11,8,0,0": {
+      "die_id": "133",
+      "status": "normal"
+    },
+    "11,9,0,0": {
+      "die_id": "134",
+      "status": "normal"
+    },
+    "11,10,0,0": {
+      "die_id": "135",
+      "status": "normal"
+    },
+    "11,11,0,0": {
+      "die_id": "136",
+      "status": "normal"
+    },
+    "12,3,0,0": {
+      "die_id": "137",
+      "status": "normal"
+    },
+    "12,4,0,0": {
+      "die_id": "138",
+      "status": "normal"
+    },
+    "12,5,0,0": {
+      "die_id": "139",
+      "status": "normal"
+    },
+    "12,6,0,0": {
+      "die_id": "140",
+      "status": "normal"
+    },
+    "12,7,0,0": {
+      "die_id": "141",
+      "status": "normal"
+    },
+    "12,8,0,0": {
+      "die_id": "142",
+      "status": "normal"
+    },
+    "12,9,0,0": {
+      "die_id": "143",
+      "status": "normal"
+    },
+    "12,10,0,0": {
+      "die_id": "144",
+      "status": "normal"
+    },
+    "13,5,0,0": {
+      "die_id": "145",
+      "status": "normal"
+    },
+    "13,6,0,0": {
+      "die_id": "146",
+      "status": "normal"
+    },
+    "13,7,0,0": {
+      "die_id": "147",
+      "status": "normal"
+    },
+    "13,8,0,0": {
+      "die_id": "148",
+      "status": "normal"
+    }
+  },
+  "overlay_row_offset": 0,
+  "overlay_col_offset": 0,
+  "overlay_confirmed": false
+}

@@ -1,0 +1,28 @@
+{
+  "ata_version": "phase_1_gds_import",
+  "created_at": "2026-07-10T10:44:48",
+  "source_gds_file": "C:/Users/aahmed/Downloads/WaferProbeAndTestAutomation/WaferProbeAndTestAutomation/HPLMP01S1A.gds",
+  "selected_cell": "HPLMP01S1A",
+  "layout_unit_note": "Coordinates are exported in GDS user units. Most MEMS/IC layouts use microns; verify against the source design.",
+  "summary": {
+    "cell_count": 5,
+    "layer_count": 2,
+    "pad_count": 0,
+    "alignment_mark_count": 0,
+    "ata_metadata_count": 0,
+    "ata_device_count": 0,
+    "ata_test_structure_count": 0,
+    "wafer_map_count": 2418
+  },
+  "pad_layout_file": "ata_pad_layout.csv",
+  "alignment_marks_file": "ata_alignment_marks.csv",
+  "ata_metadata_file": "ata_metadata.csv",
+  "ata_validation_report_file": "ata_validation_report.csv",
+  "wafer_map_file": "ata_wafer_map.csv",
+  "default_recipe": {
+    "recipe_name": "UNASSIGNED_PHASE_1_PLACEHOLDER",
+    "description": "Fill this in with the actual ATA measurement recipe after pad/instrument mapping is complete.",
+    "tests": []
+  },
+  "instrument_channel_mapping_required": true
+}

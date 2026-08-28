@@ -1,0 +1,30 @@
+{
+  "default_prober": {
+    "system": "accretech",
+    "bench": "probe08"
+  },
+  "default_ata_folder": "C:/automationproject\\CenfireATA",
+  "by_computer": {
+    "7N2FZH3": {
+      "default_prober": {
+        "system": "accretech",
+        "bench": "probe08new"
+      },
+      "default_ata_folder": "\\\\prober\\M\\ETL\\proberautomation\\LAMPATA"
+    },
+    "PROBE08": {
+      "default_ata_folder": "//prober/M/ETL/proberautomation\\LAMPATA",
+      "default_prober": {
+        "system": "accretech",
+        "bench": "probe08new"
+      }
+    },
+    "9SQ9XP3": {
+      "default_prober": {
+        "system": "electroglas",
+        "bench": "probe03"
+      },
+      "default_ata_folder": "\\\\prober\\M\\ETL\\proberautomation\\LAMPATA"
+    }
+  }
+}

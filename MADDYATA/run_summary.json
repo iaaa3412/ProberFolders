@@ -1,0 +1,40 @@
+{
+  "source_file": "//prober/Mask_Design/Maddy/Design Files/MADDY03 - Wafermap_RevG (notch down).gds",
+  "parsed_at": "2026-07-08T09:07:31",
+  "library_name": "MADDY03 - Wafer Map and Reticles_RevF_ReadOnly_LEDIT_2022.2.0",
+  "unit": 1e-06,
+  "precision": 1e-09,
+  "cell_count": 78,
+  "top_cells": [
+    "WaferMap_RevG"
+  ],
+  "selected_cell": "WaferMap_RevG",
+  "selected_cell_bbox": [
+    -102140.25,
+    -103950.25,
+    102140.25,
+    103950.25
+  ],
+  "polygon_count": 211029,
+  "label_count": 0,
+  "reference_count": 862,
+  "layer_count": 5,
+  "pad_count": 0,
+  "alignment_mark_count": 0,
+  "alignment_mark_search_names": [
+    "ATA_ALIGN_*",
+    "KS_LYR4",
+    "KS_Neg_LYR2"
+  ],
+  "ata_metadata_count": 0,
+  "ata_device_count": 0,
+  "ata_test_structure_count": 0,
+  "layout_metadata_loaded": false,
+  "layout_metadata_path": "",
+  "pad_layer": null,
+  "pad_datatype": 0,
+  "flatten_selected_for_pads": true,
+  "exported_at": "2026-07-08T09:07:45",
+  "output_dir": "C:/Users/aahmed/Downloads/WaferProbeAndTestAutomation/WaferProbeAndTestAutomation\\MADDY03 - Wafermap_RevG (notch down)_ata_export",
+  "wafer_map_count": 159
+}

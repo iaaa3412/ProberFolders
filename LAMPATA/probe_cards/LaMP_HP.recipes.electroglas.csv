@@ -1,0 +1,54 @@
+kind,recipe,pin,pad,net,seq,bench,minor_moves,shot_origin_x,shot_origin_y,name,type,mode,instrument,chan,target,hi,lo,level,limit,shape,freq,conn,min,max,avg_count,avg_delay,nplc,his,los,mrange,die,route
+RECIPE,Lamp 21PCM whole wafer,,,,,probe03,,,,,,,,,,,,,,,,,,,,,,,,,,
+STEP,Lamp 21PCM whole wafer,,,,1,,,,,Settle before bias (Delay1),delay,,,,,,,2000,,,,,,,,,,,,,,switch
+STEP,Lamp 21PCM whole wafer,,,,2,,,,,Bias Voltage,voltage,apply,,,,,,,,,,,,,,,,,,,1,switch
+STEP,Lamp 21PCM whole wafer,,,,3,,,,,Settle between bias and measure (Delay2),delay,,,,,,,100,,,,,,,,,,,,,,switch
+STEP,Lamp 21PCM whole wafer,,,,4,,,,,Leakage Measurement,current,measure,DMM,,,,,,,,,,,,1,0,1,,,,1,switch
+STEP,Lamp 21PCM whole wafer,,,,5,,,,,Release,open,,,,Bias Voltage,,,,,,,,,,,,,,,,,switch
+STEP,Lamp 21PCM whole wafer,,,,6,,,,,Settle after release (Delay3),delay,,,,,,,100,,,,,,,,,,,,,,switch
+RECIPE,HP LaMP electrical gauge,,,,,probe02,,,,,,,,,,,,,,,,,,,,,,,,,,
+STEP,HP LaMP electrical gauge,,,,1,,,,,Isolate (Die 1),open,,,,all,,,,,,,all,,,,,,,,,1,
+STEP,HP LaMP electrical gauge,,,,2,,,,,Settle before bias (Delay1) (Die 1),delay,,,,,,,100,,,,,,,,,,,,,1,switch
+STEP,HP LaMP electrical gauge,,,,3,,,,,Bias Voltage (Die 1),voltage,apply,SMU,A,,,,10,0.000001,,,00,,,,,,,,,1,switch
+STEP,HP LaMP electrical gauge,,,,4,,,,,Settle between bias and measure (Delay2) (Die 1),delay,,,,,,,200,,,,,,,,,,,,,1,switch
+STEP,HP LaMP electrical gauge,,,,5,,,,,Leakage Measurement (Die 1),current,measure,SMU,A,,,,,0.000001,,,00,,,20,200,1,,,0.0001,1,switch
+STEP,HP LaMP electrical gauge,,,,6,,,,,Leakage Check (Die 1),passfail,,,,Leakage Measurement (Die 1),,,,,,,,-1e-07,1e-07,,,,,,,1,switch
+STEP,HP LaMP electrical gauge,,,,7,,,,,Release (Die 1),open,,,,Bias Voltage (Die 1),,,,,,,,,,,,,,,,1,switch
+STEP,HP LaMP electrical gauge,,,,8,,,,,Settle after release (Delay3) (Die 1),delay,,,,,,,200,,,,,,,,,,,,,1,switch
+STEP,HP LaMP electrical gauge,,,,9,,,,,Isolate (Die 2),open,,,,all,,,,,,,all,,,,,,,,,2,
+STEP,HP LaMP electrical gauge,,,,10,,,,,Settle before bias (Delay1) (Die 2),delay,,,,,,,100,,,,,,,,,,,,,2,switch
+STEP,HP LaMP electrical gauge,,,,11,,,,,Bias Voltage (Die 2),voltage,apply,SMU,A,,,,10,0.000001,,,01,,,,,,,,,2,switch
+STEP,HP LaMP electrical gauge,,,,12,,,,,Settle between bias and measure (Delay2) (Die 2),delay,,,,,,,200,,,,,,,,,,,,,2,switch
+STEP,HP LaMP electrical gauge,,,,13,,,,,Leakage Measurement (Die 2),current,measure,SMU,A,,,,,0.000001,,,01,,,20,200,1,,,0.0001,2,switch
+STEP,HP LaMP electrical gauge,,,,14,,,,,Leakage Check (Die 2),passfail,,,,Leakage Measurement (Die 2),,,,,,,,-1e-07,1e-07,,,,,,,2,switch
+STEP,HP LaMP electrical gauge,,,,15,,,,,Release (Die 2),open,,,,Bias Voltage (Die 2),,,,,,,,,,,,,,,,2,switch
+STEP,HP LaMP electrical gauge,,,,16,,,,,Settle after release (Delay3) (Die 2),delay,,,,,,,200,,,,,,,,,,,,,2,switch
+STEP,HP LaMP electrical gauge,,,,17,,,,,Isolate (Die 3),open,,,,all,,,,,,,all,,,,,,,,,3,
+STEP,HP LaMP electrical gauge,,,,18,,,,,Settle before bias (Delay1) (Die 3),delay,,,,,,,100,,,,,,,,,,,,,3,switch
+STEP,HP LaMP electrical gauge,,,,19,,,,,Bias Voltage (Die 3),voltage,apply,SMU,A,,,,10,0.000001,,,02,,,,,,,,,3,switch
+STEP,HP LaMP electrical gauge,,,,20,,,,,Settle between bias and measure (Delay2) (Die 3),delay,,,,,,,200,,,,,,,,,,,,,3,switch
+STEP,HP LaMP electrical gauge,,,,21,,,,,Leakage Measurement (Die 3),current,measure,SMU,A,,,,,0.000001,,,02,,,20,200,1,,,0.0001,3,switch
+STEP,HP LaMP electrical gauge,,,,22,,,,,Leakage Check (Die 3),passfail,,,,Leakage Measurement (Die 3),,,,,,,,-1e-07,1e-07,,,,,,,3,switch
+STEP,HP LaMP electrical gauge,,,,23,,,,,Release (Die 3),open,,,,Bias Voltage (Die 3),,,,,,,,,,,,,,,,3,switch
+STEP,HP LaMP electrical gauge,,,,24,,,,,Settle after release (Delay3) (Die 3),delay,,,,,,,200,,,,,,,,,,,,,3,switch
+STEP,HP LaMP electrical gauge,,,,25,,,,,Isolate (Die 4),open,,,,all,,,,,,,all,,,,,,,,,4,
+STEP,HP LaMP electrical gauge,,,,26,,,,,Settle before bias (Delay1) (Die 4),delay,,,,,,,100,,,,,,,,,,,,,4,switch
+STEP,HP LaMP electrical gauge,,,,27,,,,,Bias Voltage (Die 4),voltage,apply,SMU,A,,,,10,0.000001,,,03,,,,,,,,,4,switch
+STEP,HP LaMP electrical gauge,,,,28,,,,,Settle between bias and measure (Delay2) (Die 4),delay,,,,,,,200,,,,,,,,,,,,,4,switch
+STEP,HP LaMP electrical gauge,,,,29,,,,,Leakage Measurement (Die 4),current,measure,SMU,A,,,,,0.000001,,,03,,,20,200,1,,,0.0001,4,switch
+STEP,HP LaMP electrical gauge,,,,30,,,,,Leakage Check (Die 4),passfail,,,,Leakage Measurement (Die 4),,,,,,,,-1e-07,1e-07,,,,,,,4,switch
+STEP,HP LaMP electrical gauge,,,,31,,,,,Release (Die 4),open,,,,Bias Voltage (Die 4),,,,,,,,,,,,,,,,4,switch
+STEP,HP LaMP electrical gauge,,,,32,,,,,Settle after release (Delay3) (Die 4),delay,,,,,,,200,,,,,,,,,,,,,4,switch
+SITE,HP LaMP electrical gauge,,,,1,,,,,93-01/83-71/93-02/83-72,,,,,,9,17,,,,,,,,,,,,,,,
+SITE,HP LaMP electrical gauge,,,,2,,,,,NA/NA/NA/81-10,,,,,,14,5,,,,,,,,,,,,,,,
+SITE,HP LaMP electrical gauge,,,,3,,,,,NA/70-74/81-00/71-70,,,,,,17,5,,,,,,,,,,,,,,,
+SITE,HP LaMP electrical gauge,,,,4,,,,,84-04/74-74/85-00/75-70,,,,,,17,25,,,,,,,,,,,,,,,
+SITE,HP LaMP electrical gauge,,,,5,,,,,86-04/76-74/NA/77-70,,,,,,17,34,,,,,,,,,,,,,,,
+SITE,HP LaMP electrical gauge,,,,6,,,,,76-02/66-72/76-03/66-73,,,,,,25,33,,,,,,,,,,,,,,,
+SITE,HP LaMP electrical gauge,,,,7,,,,,NA/NA/50-41/50-31,,,,,,37,1,,,,,,,,,,,,,,,
+SITE,HP LaMP electrical gauge,,,,8,,,,,53-41/53-31/53-42/53-32,,,,,,37,17,,,,,,,,,,,,,,,
+SITE,HP LaMP electrical gauge,,,,9,,,,,TARGET/41-71/TARGET/41-72,,,,,,41,6,,,,,,,,,,,,,,,
+SITE,HP LaMP electrical gauge,,,,10,,,,,TARGET/41-73/51-04/41-74,,,,,,41,9,,,,,,,,,,,,,,,
+SITE,HP LaMP electrical gauge,,,,11,,,,,56-00/46-70/TARGET/46-71,,,,,,41,30,,,,,,,,,,,,,,,
+SITE,HP LaMP electrical gauge,,,,12,,,,,47-61/47-51/47-62/47-52,,,,,,42,37,,,,,,,,,,,,,,,
+SITE,HP LaMP electrical gauge,,,,13,,,,,26-04/16-74/NA/NA,,,,,,63,34,,,,,,,,,,,,,,,

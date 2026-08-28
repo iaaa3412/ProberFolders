@@ -1,0 +1,61 @@
+{
+  "formats": [
+    {
+      "name": "MAD-X Resistance CSV (LotID/WaferID/ChipID...)",
+      "table": "madx_resistance",
+      "type": "csv",
+      "requires_die_id": false,
+      "columns": [
+        {
+          "field": "LotID",
+          "source": "lot_id"
+        },
+        {
+          "field": "WaferID",
+          "source": "wafer_id"
+        },
+        {
+          "field": "ChipID",
+          "source": "chip_id"
+        },
+        {
+          "field": "Row",
+          "source": "row_num"
+        },
+        {
+          "field": "Column",
+          "source": "column_letter"
+        },
+        {
+          "field": "Connection",
+          "source": "connection"
+        },
+        {
+          "field": "Voltage",
+          "source": "voltage"
+        },
+        {
+          "field": "Current",
+          "source": "current"
+        },
+        {
+          "field": "Resistance",
+          "source": "resistance"
+        },
+        {
+          "field": "Voltage_DMM",
+          "source": "voltage_dmm",
+          "multiply": -1
+        },
+        {
+          "field": "Compliance",
+          "source": "compliance"
+        },
+        {
+          "field": "Time_Stamp",
+          "source": "time_stamp"
+        }
+      ]
+    }
+  ]
+}

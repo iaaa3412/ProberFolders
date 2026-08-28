@@ -1,0 +1,99 @@
+benches:
+  probe08:
+    slots:
+    - slot: '2'
+      cols: 12
+      rows: &id001
+      - A
+      - B
+      - C
+      - D
+      - E
+      - F
+      - G
+      - H
+    - slot: '4'
+      cols: 12
+      rows: &id002
+      - A
+      - B
+      - C
+      - D
+      - E
+      - F
+      - G
+      - H
+    row_roles:
+      A:
+        instrument: SMU
+        channel: A
+        polarity: HI
+      B:
+        instrument: SMU
+        channel: A
+        polarity: LO
+      C:
+        instrument: SMU
+        channel: B
+        polarity: HI
+      D:
+        instrument: SMU
+        channel: B
+        polarity: LO
+      E:
+        instrument: DMM
+        channel: ''
+        polarity: LO
+      F:
+        instrument: DMM
+        channel: ''
+        polarity: HI
+      G:
+        instrument: WGEN
+        channel: CH1
+        polarity: HI
+      H:
+        instrument: WGEN
+        channel: CH2
+        polarity: HI
+  probe08new:
+    slots:
+    - slot: '2'
+      cols: 12
+      rows: *id001
+    - slot: '4'
+      cols: 12
+      rows: *id002
+    row_roles:
+      A:
+        instrument: SMU
+        channel: A
+        polarity: HI
+      B:
+        instrument: SMU
+        channel: A
+        polarity: LO
+      C:
+        instrument: ''
+        channel: ''
+        polarity: ''
+      D:
+        instrument: ''
+        channel: ''
+        polarity: ''
+      E:
+        instrument: DMM
+        channel: ''
+        polarity: LO
+      F:
+        instrument: DMM
+        channel: ''
+        polarity: HI
+      G:
+        instrument: ''
+        channel: ''
+        polarity: ''
+      H:
+        instrument: ''
+        channel: ''
+        polarity: ''

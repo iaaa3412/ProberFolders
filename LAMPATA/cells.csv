@@ -1,0 +1,6 @@
+cell,is_top_level,polygon_count,label_count,reference_count,bbox_min_x_um,bbox_min_y_um,bbox_max_x_um,bbox_max_y_um,bbox_width_um,bbox_height_um,bbox_center_x_um,bbox_center_y_um
+test_die,False,281,0,0,-1762.0,-822.5,1762.0,822.5,3524.0,1645.0,0.0,0.0
+target_object,False,3,0,0,-15.0,-192.5,15.0,192.5,30.0,385.0,0.0,0.0
+Target_Shot_R7,False,12,0,5,-1762.0,-822.5,1762.0,822.5,3524.0,1645.0,0.0,0.0
+single_die,False,82,0,0,-1762.0,-822.5,1762.0,822.5,3524.0,1645.0,0.0,0.0
+HPLMP01S1A,True,4,0,2418,-66956.0,-66622.5,66956.0,66622.5,133912.0,133245.0,0.0,0.0

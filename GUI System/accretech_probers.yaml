@@ -1,0 +1,59 @@
+active: probe08
+probers:
+  probe08:
+    label: probe08
+    instruments:
+      prober:
+        name: Accretech UF200R
+        address: GPIB0::5::INSTR
+        timeout_ms: 3000
+        model: AccretechUF200R
+      smu:
+        name: Keithley 2636B
+        address: ''
+        timeout_ms: 3000
+        model: Keithley2636B
+      dmm:
+        name: Keysight 34461A
+        address: USB0::0x2A8D::0x1301::MY57216618::INSTR
+        timeout_ms: 3000
+        model: Keysight34461A
+      switch_matrix:
+        name: Keithley 707B
+        address: GPIB0::16::INSTR
+        timeout_ms: 3000
+        model: Keithley707B
+      wave_gen:
+        name: Keysight 33512B
+        address: GPIB0::12::INSTR
+        timeout_ms: 3000
+        model: Keysight33512B
+  probe08new:
+    label: probe08new
+    instruments:
+      prober:
+        name: Accretech UF200R
+        address: GPIB0::5::INSTR
+        timeout_ms: 3000
+        model: AccretechUF200R
+      smu:
+        name: Keithley 2400
+        address: GPIB0::10::INSTR
+        timeout_ms: 3000
+        model: Keithley2400
+      dmm:
+        name: Keysight 34461A
+        address: GPIB0::22::INSTR
+        timeout_ms: 3000
+        model: Keysight34461A
+      switch_matrix:
+        name: Keithley 707B
+        address: GPIB0::16::INSTR
+        timeout_ms: 3000
+        model: Keithley707B
+      wave_gen:
+        name: disconnected
+        address: GPIB0::12::INSTR
+        timeout_ms: 3000
+        model: Keysight33512B
+        fitted: false
