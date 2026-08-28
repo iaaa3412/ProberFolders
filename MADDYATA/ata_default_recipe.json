@@ -1,4 +1,8 @@
 {
   "card": "maddyqual",
-  "recipe": "Maddy TL"
+  "recipe": "Maddy TL",
+  "accretech": {
+    "card": "MADDY_TL_REV_D",
+    "recipe": "Maddy TL"
+  }
 }

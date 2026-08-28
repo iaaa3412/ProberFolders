@@ -7,7 +7,7 @@ PIN,,17,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PIN,,18,7,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PIN,,19,6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PIN,,20,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-RECIPE,lampaccr,,,,,probe08,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+RECIPE,lampaccr,,,,,probe08old,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 STEP,lampaccr,,,,1,,,,,touch,delay,,,,,,,200,,,,,,,,,,,,,,,,switch
 STEP,lampaccr,,,,2,,,,,first,current,measure,SMU,A,,17:8,18:7,10.000,1e-06,,,"4A05,4B06",,,1,0,10,,,200,1,,1,switch
 STEP,lampaccr,,,,3,,,,,settle,delay,,,,,,,100,,,,,,,,,,,,,,,,switch
@@ -661,7 +661,7 @@ SITE,lampaccr,,,,629,,,,,03-01,,,,,,40,-4,,,,,,,,,,,,,,,,,
 SITE,lampaccr,,,,630,,,,,03-03,,,,,,40,-2,,,,,,,,,,,,,,,,,
 SITE,lampaccr,,,,631,,,,,04-00,,,,,,40,0,,,,,,,,,,,,,,,,,
 SITE,lampaccr,,,,632,,,,,04-02,,,,,,40,2,,,,,,,,,,,,,,,,,
-RECIPE,lampaccr_wgen,,,,,probe08,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+RECIPE,lampaccr_wgen,,,,,probe08old,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 STEP,lampaccr_wgen,,,,1,,,,,touch,delay,,,,,,,200,,,,,,,,,,,,,,,,switch
 STEP,lampaccr_wgen,,,,2,,,,,bias1,wave,apply,WGEN,CH1,,,,10,,DC,1000,"4G05,4B06",,,,,,,,,,,1,switch
 STEP,lampaccr_wgen,,,,3,,,,,wait1,delay,,,,,,,200,,,,,,,,,,,,,,,,switch
@@ -695,7 +695,7 @@ STEP,lampaccr_wgen,,,,30,,,,,check4,passfail,,,,read4,,,,,,,,0,1e-07,,,,,,,,,4,s
 STEP,lampaccr_wgen,,,,31,,,,,openbias4,open,,,,bias4,,,,,,,"2G06,2B05",,,,,,,,,,,,switch
 STEP,lampaccr_wgen,,,,32,,,,,openread4,open,,,,read4,,,,,,,"2F06,2E05",,,,,,,,,,,,switch
 STEP,lampaccr_wgen,,,,33,,,,,delay4,delay,,,,,,,200,,,,,,,,,,,,,,,,switch
-RECIPE,lampaccr_dmm,,,,,probe08,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+RECIPE,lampaccr_dmm,,,,,probe08old,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 STEP,lampaccr_dmm,,,,1,,,,,touch,delay,,,,,,,200,,,,,,,,,,,,,,,,switch
 STEP,lampaccr_dmm,,,,2,,,,,measure1,resistance,measure,DMM,,,,,,,,,"4F05,4E06",,,1,0,1,,,0,,,1,switch
 STEP,lampaccr_dmm,,,,3,,,,,check1,passfail,,,,measure1,,,,,,,,1e6,,,,,,,,,,1,switch
@@ -713,7 +713,7 @@ STEP,lampaccr_dmm,,,,14,,,,,measure4,resistance,measure,DMM,,,,,,,,,"2F06,2E05",
 STEP,lampaccr_dmm,,,,15,,,,,check4,passfail,,,,measure4,,,,,,,,1e6,,,,,,,,,,4,switch
 STEP,lampaccr_dmm,,,,16,,,,,open4,open,,,,measure4,,,,,,,"2F06,2E05",,,,,,,,,,,,switch
 STEP,lampaccr_dmm,,,,17,,,,,delay4,delay,,,,,,,50,,,,,,,,,,,,,,,,switch
-RECIPE,lampaccr_smu,,,,,probe08,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+RECIPE,lampaccr_smu,,,,,probe08old,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 STEP,lampaccr_smu,,,,1,,,,,touch,delay,,,,,,,200,,,,,,,,,,,,,,,,switch
 STEP,lampaccr_smu,,,,2,,,,,bias1,voltage,apply,SMU,A,,,,10,1e-06,,,"4A05,4B06",,,,,,,,,,,1,switch
 STEP,lampaccr_smu,,,,3,,,,,wait1,delay,,,,,,,100,,,,,,,,,,,,,,,,switch
@@ -739,7 +739,7 @@ STEP,lampaccr_smu,,,,22,,,,,measure4,resistance,measure,SMU,A,,,,,,,,"2A06,2B05"
 STEP,lampaccr_smu,,,,23,,,,,check4,passfail,,,,measure4,,,,,,,,1e6,,,,,,,,,,4,switch
 STEP,lampaccr_smu,,,,24,,,,,open4,open,,,,bias4,,,,,,,"2A06,2B05",,,,,,,,,,,,switch
 STEP,lampaccr_smu,,,,25,,,,,delay4,delay,,,,,,,50,,,,,,,,,,,,,,,,switch
-RECIPE,lamp_wholewafer,,,,,probe08new,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+RECIPE,lamp_wholewafer,,,,,probe08,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 STEP,lamp_wholewafer,,,,1,,,,,touch,delay,,,,,,,200,,,,,,,,,,,,,,,,switch
 STEP,lamp_wholewafer,,,,2,,,,,first,current,measure,SMU,A,,17:8,18:7,10.000,1e-06,,,"4A05,4B06",,,20,0,1,,,50,1,,1,switch
 STEP,lamp_wholewafer,,,,3,,,,,settle,delay,,,,,,,50,,,,,,,,,,,,,,,,switch
@@ -1394,7 +1394,7 @@ SITE,lamp_wholewafer,,,,630,,,,,03-01,,,,,,40,-4,,,,,,,,,,,,,,,,,
 SITE,lamp_wholewafer,,,,631,,,,,03-03,,,,,,40,-2,,,,,,,,,,,,,,,,,
 SITE,lamp_wholewafer,,,,632,,,,,04-00,,,,,,40,0,,,,,,,,,,,,,,,,,
 SITE,lamp_wholewafer,,,,633,,,,,04-02,,,,,,40,2,,,,,,,,,,,,,,,,,
-RECIPE,lamp_single_site,,,,,probe08new,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+RECIPE,lamp_single_site,,,,,probe08,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 STEP,lamp_single_site,,,,1,,,,,touch,delay,,,,,,,200,,,,,,,,,,,,,,,,switch
 STEP,lamp_single_site,,,,2,,,,,first,current,measure,SMU,A,,17:8,18:7,10.000,1e-06,,,"4A05,4B06",,,1,0,10,,,200,1,,1,switch
 STEP,lamp_single_site,,,,3,,,,,settle,delay,,,,,,,100,,,,,,,,,,,,,,,,switch
@@ -1417,7 +1417,7 @@ STEP,lamp_single_site,,,,19,,,,,check4,passfail,,,,fourth,,,,,,,,0.000,1e-07,,,,
 STEP,lamp_single_site,,,,20,,,,,switch4,open,,,,fourth,,,,,,,"2A06,2B05",,,,,,,,,,,,switch
 STEP,lamp_single_site,,,,21,,,,,delay,delay,,,,,,,200.000,,,,,,,,,,,,,,,,switch
 SITE,lamp_single_site,,,,1,,,,,,,,,,,8,18,,,,,,,,,,,,,,,,,
-RECIPE,lamp_dmm,,,,,probe08new,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+RECIPE,lamp_dmm,,,,,probe08,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 STEP,lamp_dmm,,,,1,,,,,touch,delay,,,,,,,200,,,,,,,,,,,,,,,,switch
 STEP,lamp_dmm,,,,2,,,,,measure1,resistance,measure,DMM,,,,,,,,,"4F05,4E06",,,1,0,1,,,0,,,1,switch
 STEP,lamp_dmm,,,,3,,,,,check1,passfail,,,,measure1,,,,,,,,1e6,,,,,,,,,,1,switch

@@ -1,7 +1,7 @@
 active: probe08
 probers:
-  probe08:
-    label: probe08
+  probe08old:
+    label: probe08old
     instruments:
       prober:
         name: Accretech UF200R
@@ -28,8 +28,8 @@ probers:
         address: GPIB0::12::INSTR
         timeout_ms: 3000
         model: Keysight33512B
-  probe08new:
-    label: probe08new
+  probe08:
+    label: probe08
     instruments:
       prober:
         name: Accretech UF200R
@@ -51,9 +51,3 @@ probers:
         address: GPIB0::16::INSTR
         timeout_ms: 3000
         model: Keithley707B
-      wave_gen:
-        name: disconnected
-        address: GPIB0::12::INSTR
-        timeout_ms: 3000
-        model: Keysight33512B
-        fitted: false

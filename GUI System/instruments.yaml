@@ -10,17 +10,17 @@ instruments:
     address: GPIB0::16::INSTR
     timeout_ms: 3000
   smu:
-    name: Keithley 2636B
+    name: Keithley 2400
     protocol: GPIB
-    address: ''
+    address: GPIB0::10::INSTR
     timeout_ms: 3000
   dmm:
     name: Keysight 34461A
     protocol: GPIB
-    address: USB0::0x2A8D::0x1301::MY57216618::INSTR
+    address: GPIB0::22::INSTR
     timeout_ms: 3000
   wave_gen:
-    name: Keysight 33512B
+    name: disconnected
     protocol: GPIB
     address: GPIB0::12::INSTR
     timeout_ms: 3000

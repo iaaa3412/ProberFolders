@@ -8,7 +8,7 @@
     "7N2FZH3": {
       "default_prober": {
         "system": "accretech",
-        "bench": "probe08new"
+        "bench": "probe08"
       },
       "default_ata_folder": "\\\\prober\\M\\ETL\\proberautomation\\LAMPATA"
     },

@@ -1,10 +1,11 @@
 {
   "formats": [
     {
-      "name": "LaMP Electrical (tblLampElectricalMeasurements)",
-      "table": "check",
+      "name": "LaMP Electrical",
+      "table": "tblLampElectricalMeasurements",
       "type": "sql",
       "requires_die_id": true,
+      "append_date": false,
       "columns": [
         {
           "field": "fldTestSerial",
@@ -13,7 +14,7 @@
         },
         {
           "field": "fldDieID",
-          "source": "die_id",
+          "source": "quad_die_id",
           "quote": true
         },
         {
@@ -41,9 +42,10 @@
           "source": "value",
           "quote": false
         }
-      ]
+      ],
+      "quad_group_size": 4
     }
   ],
-  "default": "LaMP Electrical (tblLampElectricalMeasurements)",
+  "default": "LaMP Electrical",
   "export_path": "//prober/NewData/ETL/RAWDATA/PROBE08/Lamp"
 }

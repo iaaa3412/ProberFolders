@@ -8,12 +8,12 @@ PIN,,J21,5,TRLParaCap,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PIN,,J25,3,TLTSB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PIN,,J27,2,TLSilicon,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PIN,,J29,1,TLTSA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-RECIPE,TSV1,,,,,probe08,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+RECIPE,TSV1,,,,,probe08old,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 STEP,TSV1,,,,1,,,,,touch,delay,,,,,,,100,,,,,,,,,,,,,,,,switch
 STEP,TSV1,,,,2,,,,,J29-J27,resistance,measure,DMM,,,,,,,,,,,,1,0,1,,,0,,,1,direct
 STEP,TSV1,,,,3,,,,,settle,delay,,,,,,,100.000,,,,,,,,,,,,,,,,switch
 STEP,TSV1,,,,4,,,,,check,passfail,,,,J29-J27,,,,,,,,10000.0,,,,,,,,,,1,switch
-RECIPE,TSV1_probe08new,,,,,probe08new,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+RECIPE,TSV1_probe08new,,,,,probe08,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 STEP,TSV1_probe08new,,,,1,,,,,touch,delay,,,,,,,100,,,,,,,,,,,,,,,,switch
 STEP,TSV1_probe08new,,,,2,,,,,J29-J27,resistance,measure,DMM,,,,,,,,,,,,1,0,1,,,0,,,1,direct
 STEP,TSV1_probe08new,,,,3,,,,,settle,delay,,,,,,,100.000,,,,,,,,,,,,,,,,switch

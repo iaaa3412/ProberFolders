@@ -1,5 +1,5 @@
 benches:
-  probe08:
+  probe08old:
     slots:
     - slot: '2'
       cols: 12
@@ -56,7 +56,7 @@ benches:
         instrument: WGEN
         channel: CH2
         polarity: HI
-  probe08new:
+  probe08:
     slots:
     - slot: '2'
       cols: 12

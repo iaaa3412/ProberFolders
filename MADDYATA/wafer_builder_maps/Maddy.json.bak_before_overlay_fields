@@ -7,8 +7,7 @@
   "shot_pitch_y": "",
   "shot_cells": {
     "0,0": {
-      "present": true,
-      "order": 1
+      "present": true
     }
   },
   "shotmap_rows": "23",
@@ -1678,8 +1677,5 @@
       "die_id": "23L",
       "status": "normal"
     }
-  },
-  "overlay_row_offset": 1,
-  "overlay_col_offset": 1,
-  "overlay_confirmed": true
+  }
 }
