@@ -1,4 +1,8 @@
 {
   "card": "COSETTE_CPW_W",
-  "recipe": "CENFIRE-INLINE"
+  "recipe": "CENFIRE-INLINE",
+  "accretech": {
+    "card": "COSETTE_CPW_W",
+    "recipe": "CENFIRE-INLINE_probe08"
+  }
 }

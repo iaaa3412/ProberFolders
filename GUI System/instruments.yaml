@@ -20,7 +20,7 @@ instruments:
     address: GPIB0::22::INSTR
     timeout_ms: 3000
   wave_gen:
-    name: disconnected
+    name: Keysight 33512B
     protocol: GPIB
     address: GPIB0::12::INSTR
     timeout_ms: 3000

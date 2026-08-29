@@ -13,10 +13,10 @@
       "default_ata_folder": "\\\\prober\\M\\ETL\\proberautomation\\LAMPATA"
     },
     "PROBE08": {
-      "default_ata_folder": "//prober/M/ETL/proberautomation\\LAMPATA",
+      "default_ata_folder": "\\\\prober\\M\\ETL\\proberautomation\\CenfireATA",
       "default_prober": {
         "system": "accretech",
-        "bench": "probe08new"
+        "bench": "probe08"
       }
     },
     "9SQ9XP3": {
