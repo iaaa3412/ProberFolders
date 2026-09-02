@@ -14,7 +14,7 @@
       "default_gui_mode": "nanoz"
     },
     "PROBE08": {
-      "default_ata_folder": "\\\\prober\\M\\ETL\\proberautomation\\CenfireATA",
+      "default_ata_folder": "\\\\prober\\M\\ETL\\proberautomation\\LAMPATA",
       "default_prober": {
         "system": "accretech",
         "bench": "probe08"
