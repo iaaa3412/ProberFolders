@@ -102,112 +102,150 @@
     },
     {
       "name": "Cenfire CENV Production CSV",
-      "table": "cenv_production",
+      "table": "Production_TestStructures_GateToGroundRuOx-Au_Prod_MeasurementData_",
       "type": "csv",
       "requires_die_id": false,
       "append_date": true,
-      "lookup": {
-        "file": "cenv_1up_die_coordinates.csv",
-        "key_field": "die_id",
-        "lookup_key_col": "DIE_ID"
-      },
       "columns": [
         {
           "field": "PROCESS_NAME",
+          "source": "",
+          "quote": false,
           "constant": "Reliability"
         },
         {
           "field": "PRODUCT_NAME",
+          "source": "",
+          "quote": false,
           "constant": "CF1101"
         },
         {
           "field": "PRODUCT_FAMILY",
+          "source": "",
+          "quote": false,
           "constant": "CF1100"
         },
         {
           "field": "DATE_TIME",
+          "source": "",
+          "quote": false,
           "template": "{time_stamp}.000Z"
         },
         {
           "field": "PROGRAM",
+          "source": "",
+          "quote": false,
           "constant": "Cenfire"
         },
         {
           "field": "WAFER_ID",
+          "source": "",
+          "quote": false,
           "template": "{lot_id}-w{wafer_id}"
         },
         {
           "field": "TEST_MODE",
+          "source": "",
+          "quote": false,
           "constant": "Production"
         },
         {
           "field": "PROCESS_STEP",
+          "source": "",
+          "quote": false,
           "constant": "Inline"
         },
         {
           "field": "OPERATOR",
+          "source": "",
+          "quote": false,
           "constant": "OPERATOR"
         },
         {
           "field": "SUBROUTINE",
+          "source": "",
+          "quote": false,
           "constant": "Test_Structures"
         },
         {
           "field": "PROBER_ID",
+          "source": "",
+          "quote": false,
           "constant": "PROBE08"
         },
         {
           "field": "TESTER_ID",
+          "source": "",
+          "quote": false,
           "constant": "PROBE08"
         },
         {
           "field": "PROBE_CARD_ID",
+          "source": "",
+          "quote": false,
           "constant": "38314101-001"
         },
         {
           "field": "Z_OVERDRIVE_MILS",
+          "source": "",
+          "quote": false,
           "constant": "25"
         },
         {
           "field": "COLUMN_RETICLE",
-          "source": "COLUMN_RETICLE"
+          "source": "COLUMN_RETICLE",
+          "quote": false
         },
         {
           "field": "ROW_RETICLE",
-          "source": "ROW_RETICLE"
+          "source": "ROW_RETICLE",
+          "quote": false
         },
         {
           "field": "INTRA_COL",
-          "source": "INTRA_COL"
+          "source": "INTRA_COL",
+          "quote": false
         },
         {
           "field": "INTRA_ROW",
-          "source": "INTRA_ROW"
+          "source": "INTRA_ROW",
+          "quote": false
         },
         {
           "field": "ABS_COL",
-          "source": "ABS_COL"
+          "source": "ABS_COL",
+          "quote": false
         },
         {
           "field": "ABS_ROW",
-          "source": "ABS_ROW"
+          "source": "ABS_ROW",
+          "quote": false
         },
         {
           "field": "DIE_ID",
-          "source": "DIE_ID"
+          "source": "DIE_ID",
+          "quote": false
         },
         {
           "field": "RESISTANCE",
           "source": "resistance",
-          "abs": true
+          "quote": false
         },
         {
           "field": "ERROR",
-          "constant": ""
+          "source": "",
+          "quote": false
         }
-      ]
+      ],
+      "lookup": {
+        "file": "cenv_1up_die_coordinates.csv",
+        "key_field": "die",
+        "lookup_key_col": "DIE_ID"
+      },
+      "wafer_join": "-w",
+      "append_time": true
     }
   ],
   "default": "Cenfire CENV Production CSV",
-  "export_path": "C:\\Users\\aahmed\\Downloads"
+  "export_path": "//prober/NewData/ETL/RAWDATA/PROBE08/Cenfire"
 }

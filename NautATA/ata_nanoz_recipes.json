@@ -7624,6 +7624,7 @@
         "label": "Col -36 \u00b7 rows -15-4 (from selection)",
         "excluded_boards": [
           "SN:0002-0007",
+          "SN:0002-0008",
           "SN:0002-000A"
         ],
         "die_column": -36,
@@ -7648,6 +7649,7 @@
         "label": "Col -36 \u00b7 rows 5-24 (from selection)",
         "excluded_boards": [
           "SN:0002-0007",
+          "SN:0002-0008",
           "SN:0002-000A"
         ],
         "die_column": -36,
@@ -7672,6 +7674,7 @@
         "label": "Col -36 \u00b7 rows 25-44 (from selection)",
         "excluded_boards": [
           "SN:0002-0007",
+          "SN:0002-0008",
           "SN:0002-000A"
         ],
         "die_column": -36,
@@ -7695,7 +7698,7 @@
       {
         "label": "Col -35 \u00b7 rows -35--16 (from selection)",
         "excluded_boards": [
-          "SN:0002-0007",
+          "SN:0002-0008",
           "SN:0002-000A"
         ],
         "die_column": -35,
@@ -7720,6 +7723,7 @@
         "label": "Col -35 \u00b7 rows -15-4 (from selection)",
         "excluded_boards": [
           "SN:0002-0007",
+          "SN:0002-0008",
           "SN:0002-000A"
         ],
         "die_column": -35,
@@ -17489,5 +17493,8 @@
   "wafer_plan_paths": {
     "Imported": "C:/automationproject/labviewtest/references/nautilusprobeplan.xlsx",
     "attempt1": "C:/automationproject/labviewtest/references/nautilusprobeplan.xlsx"
+  },
+  "touchdowns": {
+    "attempt1": []
   }
 }

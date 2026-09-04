@@ -1,38 +1,92 @@
 [
   {
-    "serial_number": "0002-0007",
+    "serial_number": "0002-0008",
     "firmware": "V1.12.153",
     "signature": "5164",
-    "usb_id": "DP05CQUCA",
-    "slot0": null,
-    "slot1": null,
-    "last_port": null
+    "usb_id": "DP05CTYTA",
+    "slot0": 3,
+    "slot1": 4,
+    "last_port": "COM7"
+  },
+  {
+    "serial_number": "0002-0011",
+    "firmware": "V1.12.153",
+    "signature": "5164",
+    "usb_id": "DP05CK25A",
+    "slot0": 11,
+    "slot1": 12,
+    "last_port": "COM10"
+  },
+  {
+    "serial_number": "0002-000E",
+    "firmware": "V1.12.153",
+    "signature": "5164",
+    "usb_id": "D200Z4UNA",
+    "slot0": 9,
+    "slot1": 10,
+    "last_port": "COM12"
+  },
+  {
+    "serial_number": "0002-000D",
+    "firmware": "V1.12.153",
+    "signature": "5164",
+    "usb_id": "DP05CDWRA",
+    "slot0": 7,
+    "slot1": 8,
+    "last_port": "COM13"
   },
   {
     "serial_number": "0002-000A",
     "firmware": "V1.12.153",
     "signature": "5164",
     "usb_id": "DP05CBERA",
-    "slot0": null,
-    "slot1": null,
-    "last_port": null
+    "slot0": 5,
+    "slot1": 6,
+    "last_port": "COM4"
+  },
+  {
+    "serial_number": "0002-0007",
+    "firmware": "V1.12.153",
+    "signature": "5164",
+    "usb_id": "DP05CQUCA",
+    "slot0": 1,
+    "slot1": 2,
+    "last_port": "COM5"
+  },
+  {
+    "serial_number": "0002-0012",
+    "firmware": "V1.12.153",
+    "signature": "5164",
+    "usb_id": "DP05DO9EA",
+    "slot0": 13,
+    "slot1": 14,
+    "last_port": "COM6"
+  },
+  {
+    "serial_number": "0002-0014",
+    "firmware": "V1.12.153",
+    "signature": "5164",
+    "usb_id": "DP05CMD4A",
+    "slot0": 17,
+    "slot1": 18,
+    "last_port": "COM7"
   },
   {
     "serial_number": "0002-0015",
     "firmware": "V1.12.153",
     "signature": "5164",
     "usb_id": "DP05DKO0A",
-    "slot0": null,
-    "slot1": null,
+    "slot0": 19,
+    "slot1": 20,
     "last_port": "COM8"
   },
   {
-    "serial_number": "0002-0008",
+    "serial_number": "0002-0013",
     "firmware": "V1.12.153",
     "signature": "5164",
-    "usb_id": "DP05CTYTA",
-    "slot0": null,
-    "slot1": null,
-    "last_port": "COM7"
+    "usb_id": "DP05DAGSA",
+    "slot0": 15,
+    "slot1": 16,
+    "last_port": "COM9"
   }
 ]

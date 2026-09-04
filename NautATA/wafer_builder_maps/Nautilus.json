@@ -43540,5 +43540,8 @@
       "die_id": "EN066",
       "status": "normal"
     }
-  }
+  },
+  "overlay_row_offset": -50,
+  "overlay_col_offset": -53,
+  "overlay_confirmed": true
 }

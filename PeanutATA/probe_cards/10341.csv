@@ -1,39 +1,79 @@
-kind,recipe,pin,pad,net,seq,bench,name,type,mode,instrument,chan,target,hi,lo,level,limit,shape,freq,conn,min,max,avg_count,avg_delay,nplc,his,los,mrange,die,route
-PIN,,J1,17,BPYsync,,,,,,,,,,,,,,,,,,,,,,,,,
-PIN,,J2,18,BYCLK,,,,,,,,,,,,,,,,,,,,,,,,,
-PIN,,J3,19,SPICLK,,,,,,,,,,,,,,,,,,,,,,,,,
-PIN,,J4,20,SPIDATA,,,,,,,,,,,,,,,,,,,,,,,,,
-PIN,,J5,21,BPXsync,,,,,,,,,,,,,,,,,,,,,,,,,
-PIN,,J6,22,MBS,,,,,,,,,,,,,,,,,,,,,,,,,
-PIN,,J7,23,SPI_LOAD,,,,,,,,,,,,,,,,,,,,,,,,,
-PIN,,J8,24,1.8V_ANLG,,,,,,,,,,,,,,,,,,,,,,,,,
-PIN,,J9,25,REF_ELECPAD,,,,,,,,,,,,,,,,,,,,,,,,,
-PIN,,J10,26,AP457,,,,,,,,,,,,,,,,,,,,,,,,,
-PIN,,J11,27,AP513,,,,,,,,,,,,,,,,,,,,,,,,,
-PIN,,J12,29,BRm3TS,,,,,,,,,,,,,,,,,,,,,,,,,
-PIN,,J13,32,BRLParaCap,,,,,,,,,,,,,,,,,,,,,,,,,
-PIN,,J14,34,BRRParaCap,,,,,,,,,,,,,,,,,,,,,,,,,
-PIN,,J15,37,BRTrace_Imp,,,,,,,,,,,,,,,,,,,,,,,,,
-PIN,,J16,30,BRm1TS,,,,,,,,,,,,,,,,,,,,,,,,,
-PIN,,J17,31,TRm1TS,,,,,,,,,,,,,,,,,,,,,,,,,
-PIN,,J18,38,TRTrace_Imp,,,,,,,,,,,,,,,,,,,,,,,,,
-PIN,,J19,36,TRTrace_Imp,,,,,,,,,,,,,,,,,,,,,,,,,
-PIN,,J20,35,TRRParaCap,,,,,,,,,,,,,,,,,,,,,,,,,
-PIN,,J21,33,TRLParaCap,,,,,,,,,,,,,,,,,,,,,,,,,
-PIN,,J25,28,TRm2TS,,,,,,,,,,,,,,,,,,,,,,,,,
-PIN,,J26,5,TLTSB,,,,,,,,,,,,,,,,,,,,,,,,,
-PIN,,J27,3,TLSilicon,,,,,,,,,,,,,,,,,,,,,,,,,
-PIN,,J28,1,TLTSA,,,,,,,,,,,,,,,,,,,,,,,,,
-PIN,,J29,2,FIB_Pad,,,,,,,,,,,,,,,,,,,,,,,,,
-PIN,,J37,4,BLTS,,,,,,,,,,,,,,,,,,,,,,,,,
-PIN,,J38,6,AP544,,,,,,,,,,,,,,,,,,,,,,,,,
-PIN,,J39,7,AP543,,,,,,,,,,,,,,,,,,,,,,,,,
-PIN,,J40,8,VTEST_DAC,,,,,,,,,,,,,,,,,,,,,,,,,
-PIN,,J41,9,CLK_SYS,,,,,,,,,,,,,,,,,,,,,,,,,
-PIN,,J42,10,SYNC_SYS,,,,,,,,,,,,,,,,,,,,,,,,,
-PIN,,J43,11,GND,,,,,,,,,,,,,,,,,,,,,,,,,
-PIN,,J44,12,1.8V_DIG,,,,,,,,,,,,,,,,,,,,,,,,,
-PIN,,J45,13,OUT_LEFT,,,,,,,,,,,,,,,,,,,,,,,,,
-PIN,,J46,14,VHIGH/SH,,,,,,,,,,,,,,,,,,,,,,,,,
-PIN,,J47,15,VCC_LNA,,,,,,,,,,,,,,,,,,,,,,,,,
-PIN,,J48,16,LNA_REF,,,,,,,,,,,,,,,,,,,,,,,,,
+kind,recipe,pin,pad,net,seq,bench,minor_moves,shortcut,fast_current_settle,shot_origin_x,shot_origin_y,name,type,mode,instrument,chan,target,hi,lo,level,limit,shape,freq,conn,min,max,avg_count,avg_delay,nplc,his,los,settle_delay,abs_value,mrange,die,route
+PIN,,17,J1,BPYsync,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PIN,,18,J2,BYCLK,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PIN,,19,J3,SPICLK,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PIN,,20,J4,SPIDATA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PIN,,21,J5,BPXsync,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PIN,,22,J6,MBS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PIN,,23,J7,SPI_LOAD,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PIN,,24,J8,1.8V_ANLG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PIN,,25,J9,REF_ELECPAD,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PIN,,26,J10,AP457,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PIN,,27,J11,AP513,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PIN,,29,J12,BRm3TS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PIN,,32,J13,BRLParaCap,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PIN,,34,J14,BRRParaCap,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PIN,,37,J15,BRTrace_Imp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PIN,,30,J16,BRm1TS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PIN,,31,J17,TRm1TS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PIN,,38,J18,TRTrace_Imp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PIN,,36,J19,TRTrace_Imp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PIN,,35,J20,TRRParaCap,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PIN,,33,J21,TRLParaCap,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PIN,,28,J25,TRm2TS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PIN,,5,J26,TLTSB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PIN,,3,J27,TLSilicon,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PIN,,1,J28,TLTSA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PIN,,2,J29,FIB_Pad,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PIN,,4,J37,BLTS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PIN,,6,J38,AP544,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PIN,,7,J39,AP543,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PIN,,8,J40,VTEST_DAC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PIN,,9,J41,CLK_SYS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PIN,,10,J42,SYNC_SYS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PIN,,11,J43,GND,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PIN,,12,J44,1.8V_DIG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PIN,,13,J45,OUT_LEFT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PIN,,14,J46,VHIGH/SH,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PIN,,15,J47,VCC_LNA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PIN,,16,J48,LNA_REF,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+RECIPE,J28-J27 TSV Iso,,,,,probe08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+STEP,J28-J27 TSV Iso,,,,1,,,,,,,touch,delay,,,,,,,100,,,,,,,,,,,,,,,,switch
+STEP,J28-J27 TSV Iso,,,,2,,,,,,,J28-J27,current,measure,SMU,A,,1:J28,3:J27,10,0.00001,,,"2A01,2B03",,,1,0,1,,,0,,0,1,switch
+STEP,J28-J27 TSV Iso,,,,3,,,,,,,settle,delay,,,,,,,100,,,,,,,,,,,,,,,,switch
+STEP,J28-J27 TSV Iso,,,,4,,,,,,,check,passfail,,,,J28-J27,,,,,,,,,0.00001,,,,,,,,,1,switch
+RECIPE,J21-J20 Trace shorting,,,,,probe08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+STEP,J21-J20 Trace shorting,,,,1,,,,,,,touch,delay,,,,,,,100,,,,,,,,,,,,,,,,switch
+STEP,J21-J20 Trace shorting,,,,2,,,,,,,J21-J20,resistance,measure,DMM,,,,,,,,,,,,1,0,1,,,0,,0,1,direct
+STEP,J21-J20 Trace shorting,,,,3,,,,,,,settle,delay,,,,,,,100,,,,,,,,,,,,,,,,switch
+STEP,J21-J20 Trace shorting,,,,4,,,,,,,check,passfail,,,,J21-J20,,,,,,,,,10000,,,,,,,,,1,switch
+RECIPE,J19-J15 Trace impedance,,,,,probe08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+STEP,J19-J15 Trace impedance,,,,1,,,,,,,touch,delay,,,,,,,100,,,,,,,,,,,,,,,,switch
+STEP,J19-J15 Trace impedance,,,,2,,,,,,,J19-J15,resistance,measure,DMM,,,,,,,,,,,,1,0,1,,,0,,0,1,direct
+STEP,J19-J15 Trace impedance,,,,3,,,,,,,settle,delay,,,,,,,100,,,,,,,,,,,,,,,,switch
+STEP,J19-J15 Trace impedance,,,,4,,,,,,,check,passfail,,,,J19-J15,,,,,,,,,10000,,,,,,,,,1,switch
+RECIPE,J12-J16 RDL2 - Pad daisy chain,,,,,probe08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+STEP,J12-J16 RDL2 - Pad daisy chain,,,,1,,,,,,,touch,delay,,,,,,,100,,,,,,,,,,,,,,,,switch
+STEP,J12-J16 RDL2 - Pad daisy chain,,,,2,,,,,,,J12-J16,resistance,measure,DMM,,,,,,,,,,,,1,0,1,,,0,,0,1,direct
+STEP,J12-J16 RDL2 - Pad daisy chain,,,,3,,,,,,,settle,delay,,,,,,,100,,,,,,,,,,,,,,,,switch
+STEP,J12-J16 RDL2 - Pad daisy chain,,,,4,,,,,,,check,passfail,,,,J12-J16,,,,,,,,,10000,,,,,,,,,1,switch
+RECIPE,J25-J17 RDL1-2 Daisy chain,,,,,probe08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+STEP,J25-J17 RDL1-2 Daisy chain,,,,1,,,,,,,touch,delay,,,,,,,100,,,,,,,,,,,,,,,,switch
+STEP,J25-J17 RDL1-2 Daisy chain,,,,2,,,,,,,J25-J17,resistance,measure,DMM,,,,,,,,,,,,1,0,1,,,0,,0,1,direct
+STEP,J25-J17 RDL1-2 Daisy chain,,,,3,,,,,,,settle,delay,,,,,,,100,,,,,,,,,,,,,,,,switch
+STEP,J25-J17 RDL1-2 Daisy chain,,,,4,,,,,,,check,passfail,,,,J25-J17,,,,,,,,,10000,,,,,,,,,1,switch
+RECIPE,J16-J17 TSV daisy chain,,,,,probe08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+STEP,J16-J17 TSV daisy chain,,,,1,,,,,,,touch,delay,,,,,,,100,,,,,,,,,,,,,,,,switch
+STEP,J16-J17 TSV daisy chain,,,,2,,,,,,,J16-J17,resistance,measure,DMM,,,,,,,,,,,,1,0,1,,,0,,0,1,direct
+STEP,J16-J17 TSV daisy chain,,,,3,,,,,,,settle,delay,,,,,,,100,,,,,,,,,,,,,,,,switch
+STEP,J16-J17 TSV daisy chain,,,,4,,,,,,,check,passfail,,,,J16-J17,,,,,,,,,10000,,,,,,,,,1,switch
+RECIPE,J29-J37 TSV daisy chain,,,,,probe08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+STEP,J29-J37 TSV daisy chain,,,,1,,,,,,,touch,delay,,,,,,,100,,,,,,,,,,,,,,,,switch
+STEP,J29-J37 TSV daisy chain,,,,2,,,,,,,J29-J37,resistance,measure,DMM,,,2:J29,4:J37,,,,,"2F02,2E04",,,1,0,1,,,0,,0,1,switch
+STEP,J29-J37 TSV daisy chain,,,,3,,,,,,,settle,delay,,,,,,,100,,,,,,,,,,,,,,,,switch
+STEP,J29-J37 TSV daisy chain,,,,4,,,,,,,check,passfail,,,,J29-J37,,,,,,,,,10000,,,,,,,,,1,switch
+RECIPE,J26-J27 TSV Iso,,,,,probe08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+STEP,J26-J27 TSV Iso,,,,1,,,,,,,touch,delay,,,,,,,100,,,,,,,,,,,,,,,,switch
+STEP,J26-J27 TSV Iso,,,,2,,,,,,,J26-J27,current,measure,SMU,A,,5:J26,3:J27,10,0.00001,,,"2A05,2B03",,,1,0,1,,,0,,0,1,switch
+STEP,J26-J27 TSV Iso,,,,3,,,,,,,settle,delay,,,,,,,100,,,,,,,,,,,,,,,,switch
+STEP,J26-J27 TSV Iso,,,,4,,,,,,,check,passfail,,,,J26-J27,,,,,,,,,0.00001,,,,,,,,,1,switch

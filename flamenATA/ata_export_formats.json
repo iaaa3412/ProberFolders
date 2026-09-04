@@ -1,10 +1,11 @@
 {
   "formats": [
     {
-      "name": "LaMP Electrical (tblLampElectricalMeasurements)",
+      "name": "LaMP Electrical Quad (tblLampElectricalMeasurements)",
       "table": "tblLampElectricalMeasurements",
       "type": "sql",
       "requires_die_id": true,
+      "quad_group_size": 4,
       "columns": [
         {
           "field": "fldTestSerial",
@@ -13,7 +14,7 @@
         },
         {
           "field": "fldDieID",
-          "source": "die_id",
+          "source": "quad_die_id",
           "quote": true
         },
         {
@@ -97,31 +98,6 @@
         {
           "field": "Time_Stamp",
           "source": "time_stamp"
-        }
-      ]
-    },
-    {
-      "name": "PeanutExport",
-      "table": "peanut_export",
-      "type": "csv",
-      "requires_die_id": true,
-      "append_recipe": true,
-      "columns": [
-        {
-          "field": "LotID",
-          "source": "lot_id"
-        },
-        {
-          "field": "WaferID",
-          "source": "wafer_id"
-        },
-        {
-          "field": "DieID",
-          "source": "die_id"
-        },
-        {
-          "field": "Resistance",
-          "source": "resistance"
         }
       ]
     }

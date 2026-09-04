@@ -1,20 +1,30 @@
-kind,recipe,pin,pad,net,seq,bench,minor_moves,shot_origin_x,shot_origin_y,name,type,mode,instrument,chan,target,hi,lo,level,limit,shape,freq,conn,min,max,avg_count,avg_delay,nplc,his,los,settle_delay,abs_value,mrange,die,route
-PIN,,J1,4,BRLParaCap,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PIN,,J3,6,BRRParaCap,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PIN,,J5,9,BRTrace_Imp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PIN,,J17,8,TRTrace_Imp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PIN,,J19,7,TRRParaCap,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PIN,,J21,5,TRLParaCap,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PIN,,J25,3,TLTSB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PIN,,J27,2,TLSilicon,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PIN,,J29,1,TLTSA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-RECIPE,TSV1,,,,,probe08old,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-STEP,TSV1,,,,1,,,,,touch,delay,,,,,,,100,,,,,,,,,,,,,,,,switch
-STEP,TSV1,,,,2,,,,,J29-J27,resistance,measure,DMM,,,,,,,,,,,,1,0,1,,,0,,,1,direct
-STEP,TSV1,,,,3,,,,,settle,delay,,,,,,,100.000,,,,,,,,,,,,,,,,switch
-STEP,TSV1,,,,4,,,,,check,passfail,,,,J29-J27,,,,,,,,10000.0,,,,,,,,,,1,switch
-RECIPE,TSV1_probe08new,,,,,probe08,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-STEP,TSV1_probe08new,,,,1,,,,,touch,delay,,,,,,,100,,,,,,,,,,,,,,,,switch
-STEP,TSV1_probe08new,,,,2,,,,,J29-J27,resistance,measure,DMM,,,,,,,,,,,,1,0,1,,,0,,,1,direct
-STEP,TSV1_probe08new,,,,3,,,,,settle,delay,,,,,,,100.000,,,,,,,,,,,,,,,,switch
-STEP,TSV1_probe08new,,,,4,,,,,check,passfail,,,,J29-J27,,,,,,,,10000.0,,,,,,,,,,1,switch
+kind,recipe,pin,pad,net,seq,bench,minor_moves,shortcut,fast_current_settle,shot_origin_x,shot_origin_y,name,type,mode,instrument,chan,target,hi,lo,level,limit,shape,freq,conn,min,max,avg_count,avg_delay,nplc,his,los,settle_delay,abs_value,mrange,die,route
+PIN,,4,J1,BRLParaCap,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PIN,,6,J3,BRRParaCap,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PIN,,9,J5,BRTrace_Imp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PIN,,8,J17,TRTrace_Imp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PIN,,7,J19,TRRParaCap,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PIN,,5,J21,TRLParaCap,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PIN,,3,J25,TLTSB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PIN,,2,J27,TLSilicon,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PIN,,1,J29,TLTSA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+RECIPE,J25-J27 TSV Iso,,,,,probe08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+STEP,J25-J27 TSV Iso,,,,1,,,,,,,touch,delay,,,,,,,100,,,,,,,,,,,,,,,,switch
+STEP,J25-J27 TSV Iso,,,,2,,,,,,,J25-J27,current,measure,SMU,A,,3:J25,2:J27,10,0.00001,,,"2A03,2B02",,,1,0,1,,,0,,0,1,switch
+STEP,J25-J27 TSV Iso,,,,3,,,,,,,settle,delay,,,,,,,100,,,,,,,,,,,,,,,,switch
+STEP,J25-J27 TSV Iso,,,,4,,,,,,,check,passfail,,,,J25-J27,,,,,,,,,0.00001,,,,,,,,,1,switch
+RECIPE,J29-J27 TSV Iso,,,,,probe08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+STEP,J29-J27 TSV Iso,,,,1,,,,,,,touch,delay,,,,,,,100,,,,,,,,,,,,,,,,switch
+STEP,J29-J27 TSV Iso,,,,2,,,,,,,J29-J27,current,measure,SMU,A,,1:J29,2:J27,10,0.00001,,,"2A01,2B02",,,1,0,1,,,0,,0,1,switch
+STEP,J29-J27 TSV Iso,,,,3,,,,,,,settle,delay,,,,,,,100,,,,,,,,,,,,,,,,switch
+STEP,J29-J27 TSV Iso,,,,4,,,,,,,check,passfail,,,,J29-J27,,,,,,,,,0.00001,,,,,,,,,1,switch
+RECIPE,J17-J5 Trace resistance,,,,,probe08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+STEP,J17-J5 Trace resistance,,,,1,,,,,,,touch,delay,,,,,,,100,,,,,,,,,,,,,,,,switch
+STEP,J17-J5 Trace resistance,,,,2,,,,,,,J17-J5,resistance,measure,DMM,,,8:J17,9:J5,,,,,"2F08,2E09",,,1,0,1,,,0,,0,1,switch
+STEP,J17-J5 Trace resistance,,,,3,,,,,,,settle,delay,,,,,,,100,,,,,,,,,,,,,,,,switch
+STEP,J17-J5 Trace resistance,,,,4,,,,,,,check,passfail,,,,J17-J5,,,,,,,,,10000,,,,,,,,,1,switch
+RECIPE,J21-J19 Trace shorting,,,,,probe08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+STEP,J21-J19 Trace shorting,,,,1,,,,,,,touch,delay,,,,,,,100,,,,,,,,,,,,,,,,switch
+STEP,J21-J19 Trace shorting,,,,2,,,,,,,J21-J19,resistance,measure,DMM,,,5:J21,7:J19,,,,,"2F05,2E07",,,1,0,1,,,0,,0,1,switch
+STEP,J21-J19 Trace shorting,,,,3,,,,,,,settle,delay,,,,,,,100,,,,,,,,,,,,,,,,switch
+STEP,J21-J19 Trace shorting,,,,4,,,,,,,check,passfail,,,,J21-J19,,,,,,,,,10000,,,,,,,,,1,switch

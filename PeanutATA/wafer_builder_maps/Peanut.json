@@ -804,7 +804,7 @@
       "status": "normal"
     }
   },
-  "overlay_row_offset": 0,
-  "overlay_col_offset": 0,
-  "overlay_confirmed": false
+  "overlay_row_offset": -6,
+  "overlay_col_offset": -6,
+  "overlay_confirmed": true
 }
