@@ -1,0 +1,173 @@
+{
+  "formats": [
+    {
+      "name": "LaMP Electrical (tblLampElectricalMeasurements)",
+      "table": "tblLampElectricalMeasurements",
+      "type": "sql",
+      "requires_die_id": true,
+      "columns": [
+        {
+          "field": "fldTestSerial",
+          "source": "test_serial",
+          "quote": false
+        },
+        {
+          "field": "fldDieID",
+          "source": "die_id",
+          "quote": true
+        },
+        {
+          "field": "fldSwitch",
+          "source": "switch",
+          "quote": false
+        },
+        {
+          "field": "fldIteration",
+          "source": "iteration",
+          "quote": false
+        },
+        {
+          "field": "fldSetVoltage",
+          "source": "set_voltage",
+          "quote": false
+        },
+        {
+          "field": "fldVoltage",
+          "source": "voltage",
+          "quote": false
+        },
+        {
+          "field": "fldCurrent",
+          "source": "value",
+          "quote": false
+        }
+      ]
+    },
+    {
+      "name": "MAD-X Resistance CSV (LotID/WaferID/ChipID...)",
+      "table": "madx_resistance",
+      "type": "csv",
+      "requires_die_id": false,
+      "columns": [
+        {
+          "field": "LotID",
+          "source": "lot_id"
+        },
+        {
+          "field": "WaferID",
+          "source": "wafer_id"
+        },
+        {
+          "field": "ChipID",
+          "source": "chip_id"
+        },
+        {
+          "field": "Row",
+          "source": "row_num"
+        },
+        {
+          "field": "Column",
+          "source": "column_letter"
+        },
+        {
+          "field": "Connection",
+          "source": "connection"
+        },
+        {
+          "field": "Voltage",
+          "source": "voltage"
+        },
+        {
+          "field": "Current",
+          "source": "current"
+        },
+        {
+          "field": "Resistance",
+          "source": "resistance"
+        },
+        {
+          "field": "Voltage_DMM",
+          "source": "voltage_dmm",
+          "multiply": -1
+        },
+        {
+          "field": "Compliance",
+          "source": "compliance"
+        },
+        {
+          "field": "Time_Stamp",
+          "source": "time_stamp"
+        }
+      ]
+    },
+    {
+      "name": "PeanutExport",
+      "table": "peanut_export",
+      "type": "csv",
+      "requires_die_id": true,
+      "append_recipe": true,
+      "columns": [
+        {
+          "field": "LotID",
+          "source": "lot_id"
+        },
+        {
+          "field": "WaferID",
+          "source": "wafer_id"
+        },
+        {
+          "field": "DieID",
+          "source": "die_id"
+        },
+        {
+          "field": "Resistance",
+          "source": "resistance"
+        }
+      ]
+    },
+    {
+      "name": "Peanut FULL Export (per-test)",
+      "table": "peanut_full_export",
+      "type": "csv",
+      "per_step": true,
+      "requires_die_id": true,
+      "append_recipe": true,
+      "columns": [
+        {
+          "field": "LotID",
+          "source": "lot_id"
+        },
+        {
+          "field": "WaferID",
+          "source": "wafer_id"
+        },
+        {
+          "field": "DieID",
+          "source": "die_id"
+        },
+        {
+          "field": "ProbeCard",
+          "source": "probe_card"
+        },
+        {
+          "field": "TestName",
+          "source": "step"
+        },
+        {
+          "field": "Type",
+          "source": "type"
+        },
+        {
+          "field": "Value",
+          "source": "value"
+        },
+        {
+          "field": "Unit",
+          "source": "unit"
+        }
+      ]
+    }
+  ],
+  "default": "PeanutExport",
+  "export_path": "//prober/NewData/ETL/RAWDATA/PROBE08/Peanut"
+}

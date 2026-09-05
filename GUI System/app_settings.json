@@ -10,11 +10,11 @@
         "system": "accretech",
         "bench": "probe08"
       },
-      "default_ata_folder": "\\\\prober\\M\\ETL\\proberautomation\\LAMPATA",
-      "default_gui_mode": "nanoz"
+      "default_ata_folder": "\\\\prober\\M\\ETL\\proberautomation\\MADDYATA",
+      "default_gui_mode": "normal"
     },
     "PROBE08": {
-      "default_ata_folder": "\\\\prober\\M\\ETL\\proberautomation\\LAMPATA",
+      "default_ata_folder": "\\\\prober\\M\\ETL\\proberautomation\\PeanutATA",
       "default_prober": {
         "system": "accretech",
         "bench": "probe08"

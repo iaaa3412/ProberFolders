@@ -101,30 +101,85 @@
       ]
     },
     {
-      "name": "PeanutExport",
-      "table": "peanut_export",
+      "name": "Peanut FULL 10340 (per-test)",
+      "table": "10340_all4tests",
       "type": "csv",
       "requires_die_id": true,
+      "append_date": false,
+      "append_time": false,
       "append_recipe": true,
+      "per_step": true,
       "columns": [
         {
           "field": "LotID",
-          "source": "lot_id"
+          "source": "lot_id",
+          "quote": false
         },
         {
           "field": "WaferID",
-          "source": "wafer_id"
+          "source": "wafer_id",
+          "quote": false
         },
         {
           "field": "DieID",
-          "source": "die_id"
+          "source": "die_id",
+          "quote": false
+        },
+        {
+          "field": "TestName",
+          "source": "step",
+          "quote": false
+        },
+        {
+          "field": "Type",
+          "source": "type",
+          "quote": false
+        },
+        {
+          "field": "Value",
+          "source": "value",
+          "quote": false
+        },
+        {
+          "field": "Unit",
+          "source": "unit",
+          "quote": false
+        }
+      ]
+    },
+    {
+      "name": "Peanut 10341 Export",
+      "table": "10341",
+      "type": "csv",
+      "requires_die_id": true,
+      "append_date": false,
+      "append_time": false,
+      "append_recipe": true,
+      "per_step": false,
+      "columns": [
+        {
+          "field": "LotID",
+          "source": "lot_id",
+          "quote": false
+        },
+        {
+          "field": "WaferID",
+          "source": "wafer_id",
+          "quote": false
+        },
+        {
+          "field": "DieID",
+          "source": "die_id",
+          "quote": false
         },
         {
           "field": "Resistance",
-          "source": "resistance"
+          "source": "resistance",
+          "quote": false
         }
       ]
     }
   ],
-  "default": null
+  "default": "Peanut 10341 Export",
+  "export_path": "//prober/NewData/ETL/RAWDATA/PROBE08/Peanut"
 }

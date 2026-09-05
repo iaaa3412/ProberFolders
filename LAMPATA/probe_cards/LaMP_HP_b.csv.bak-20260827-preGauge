@@ -1,9 +1,0 @@
-kind,recipe,pin,pad,net,seq,bench,minor_moves,shot_origin_x,shot_origin_y,name,type,mode,instrument,chan,target,hi,lo,level,limit,shape,freq,conn,min,max,avg_count,avg_delay,nplc,his,los,mrange,die,route
-PIN,,5,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PIN,,6,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PIN,,7,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PIN,,8,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PIN,,17,8,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PIN,,18,7,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PIN,,19,6,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PIN,,20,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

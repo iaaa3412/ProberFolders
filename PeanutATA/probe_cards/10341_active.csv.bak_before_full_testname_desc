@@ -1,0 +1,88 @@
+kind,recipe,pin,pad,net,seq,bench,minor_moves,shortcut,fast_current_settle,shot_origin_x,shot_origin_y,name,type,mode,instrument,chan,target,hi,lo,level,limit,shape,freq,conn,min,max,avg_count,avg_delay,nplc,his,los,settle_delay,abs_value,mrange,die,route
+PIN,,6,J12,BRm3TS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PIN,,8,J15,BRTrace_Imp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PIN,,8,J16,BRm1TS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PIN,,9,J17,TRm1TS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PIN,,10,J19,TRTrace_Imp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PIN,,10,J20,TRRParaCap,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PIN,,11,J21,TRLParaCap,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PIN,,13,J25,TRm2TS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PIN,,13,J26,TLTSB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PIN,,14,J27,TLSilicon,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PIN,,14,J28,TLTSA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PIN,,15,J29,FIB_Pad,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PIN,,19,J37,BLTS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+RECIPE,J28-J27 TSV Iso,,,,,probe08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+STEP,J28-J27 TSV Iso,,,,1,,,,,,,touch,delay,,,,,,,100,,,,,,,,,,,,,,,,switch
+STEP,J28-J27 TSV Iso,,,,2,,,,,,,J28-J27,current,measure,SMU,A,,14:J28,14:J27,10,0.00001,,,"4A02,4B02",,,1,0,1,,,0,,0,1,switch
+STEP,J28-J27 TSV Iso,,,,3,,,,,,,settle,delay,,,,,,,100,,,,,,,,,,,,,,,,switch
+STEP,J28-J27 TSV Iso,,,,4,,,,,,,check,passfail,,,,J28-J27,,,,,,,,,0.00001,,,,,,,,,1,switch
+RECIPE,J21-J20 Trace shorting,,,,,probe08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+STEP,J21-J20 Trace shorting,,,,1,,,,,,,touch,delay,,,,,,,100,,,,,,,,,,,,,,,,switch
+STEP,J21-J20 Trace shorting,,,,2,,,,,,,J21-J20,resistance,measure,DMM,,,11:J21,10:J20,,,,,"2F11,2E10",,,1,0,1,,,0,,0,1,switch
+STEP,J21-J20 Trace shorting,,,,3,,,,,,,settle,delay,,,,,,,100,,,,,,,,,,,,,,,,switch
+STEP,J21-J20 Trace shorting,,,,4,,,,,,,check,passfail,,,,J21-J20,,,,,,,,,10000,,,,,,,,,1,switch
+RECIPE,J19-J15 Trace impedance,,,,,probe08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+STEP,J19-J15 Trace impedance,,,,1,,,,,,,touch,delay,,,,,,,100,,,,,,,,,,,,,,,,switch
+STEP,J19-J15 Trace impedance,,,,2,,,,,,,J19-J15,resistance,measure,DMM,,,10:J19,8:J15,,,,,"2F10,2E08",,,1,0,1,,,0,,0,1,switch
+STEP,J19-J15 Trace impedance,,,,3,,,,,,,settle,delay,,,,,,,100,,,,,,,,,,,,,,,,switch
+STEP,J19-J15 Trace impedance,,,,4,,,,,,,check,passfail,,,,J19-J15,,,,,,,,,10000,,,,,,,,,1,switch
+RECIPE,J12-J16 RDL2 - Pad daisy chain,,,,,probe08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+STEP,J12-J16 RDL2 - Pad daisy chain,,,,1,,,,,,,touch,delay,,,,,,,100,,,,,,,,,,,,,,,,switch
+STEP,J12-J16 RDL2 - Pad daisy chain,,,,2,,,,,,,J12-J16,resistance,measure,DMM,,,6:J12,8:J16,,,,,"2F06,2E08",,,1,0,1,,,0,,0,1,switch
+STEP,J12-J16 RDL2 - Pad daisy chain,,,,3,,,,,,,settle,delay,,,,,,,100,,,,,,,,,,,,,,,,switch
+STEP,J12-J16 RDL2 - Pad daisy chain,,,,4,,,,,,,check,passfail,,,,J12-J16,,,,,,,,,10000,,,,,,,,,1,switch
+RECIPE,J25-J17 RDL1-2 Daisy chain,,,,,probe08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+STEP,J25-J17 RDL1-2 Daisy chain,,,,1,,,,,,,touch,delay,,,,,,,100,,,,,,,,,,,,,,,,switch
+STEP,J25-J17 RDL1-2 Daisy chain,,,,2,,,,,,,J25-J17,resistance,measure,DMM,,,13:J25,9:J17,,,,,"4F01,2E09",,,1,0,1,,,0,,0,1,switch
+STEP,J25-J17 RDL1-2 Daisy chain,,,,3,,,,,,,settle,delay,,,,,,,100,,,,,,,,,,,,,,,,switch
+STEP,J25-J17 RDL1-2 Daisy chain,,,,4,,,,,,,check,passfail,,,,J25-J17,,,,,,,,,10000,,,,,,,,,1,switch
+RECIPE,J16-J17 TSV daisy chain,,,,,probe08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+STEP,J16-J17 TSV daisy chain,,,,1,,,,,,,touch,delay,,,,,,,100,,,,,,,,,,,,,,,,switch
+STEP,J16-J17 TSV daisy chain,,,,2,,,,,,,J16-J17,resistance,measure,DMM,,,8:J16,9:J17,,,,,"2F08,2E09",,,1,0,1,,,0,,0,1,switch
+STEP,J16-J17 TSV daisy chain,,,,3,,,,,,,settle,delay,,,,,,,100,,,,,,,,,,,,,,,,switch
+STEP,J16-J17 TSV daisy chain,,,,4,,,,,,,check,passfail,,,,J16-J17,,,,,,,,,10000,,,,,,,,,1,switch
+RECIPE,J29-J37 TSV daisy chain,,,,,probe08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+STEP,J29-J37 TSV daisy chain,,,,1,,,,,,,touch,delay,,,,,,,100,,,,,,,,,,,,,,,,switch
+STEP,J29-J37 TSV daisy chain,,,,2,,,,,,,J29-J37,resistance,measure,DMM,,,15:J29,19:J37,,,,,"4F03,4E07",,,1,0,1,,,0,,0,1,switch
+STEP,J29-J37 TSV daisy chain,,,,3,,,,,,,settle,delay,,,,,,,100,,,,,,,,,,,,,,,,switch
+STEP,J29-J37 TSV daisy chain,,,,4,,,,,,,check,passfail,,,,J29-J37,,,,,,,,,10000,,,,,,,,,1,switch
+RECIPE,J26-J27 TSV Iso,,,,,probe08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+STEP,J26-J27 TSV Iso,,,,1,,,,,,,touch,delay,,,,,,,100,,,,,,,,,,,,,,,,switch
+STEP,J26-J27 TSV Iso,,,,2,,,,,,,J26-J27,current,measure,SMU,A,,13:J26,14:J27,10,0.00001,,,"4A01,4B02",,,1,0,1,,,0,,0,1,switch
+STEP,J26-J27 TSV Iso,,,,3,,,,,,,settle,delay,,,,,,,100,,,,,,,,,,,,,,,,switch
+STEP,J26-J27 TSV Iso,,,,4,,,,,,,check,passfail,,,,J26-J27,,,,,,,,,0.00001,,,,,,,,,1,switch
+RECIPE,FULL,,,,,probe08,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+STEP,FULL,,,,1,,,,,,,touch,delay,,,,,,,100,,,,,,,,,,,,,,,,switch
+STEP,FULL,,,,2,,,,,,,J28-J27,current,measure,SMU,A,,14:J28,14:J27,10,0.00001,,,"4A02,4B02",,,1,0,1,,,0,,0,1,switch
+STEP,FULL,,,,3,,,,,,,settle,delay,,,,,,,100,,,,,,,,,,,,,,,,switch
+STEP,FULL,,,,4,,,,,,,check,passfail,,,,J28-J27,,,,,,,,,0.00001,,,,,,,,,1,switch
+STEP,FULL,,,,5,,,,,,,release,open,,,,J28-J27,,,,,,,"4A02,4B02",,,,,,,,,,,1,switch
+STEP,FULL,,,,6,,,,,,,J21-J20,resistance,measure,DMM,,,11:J21,10:J20,,,,,"2F11,2E10",,,1,0,1,,,0,,0,1,switch
+STEP,FULL,,,,7,,,,,,,settle,delay,,,,,,,100,,,,,,,,,,,,,,,,switch
+STEP,FULL,,,,8,,,,,,,check,passfail,,,,J21-J20,,,,,,,,,10000,,,,,,,,,1,switch
+STEP,FULL,,,,9,,,,,,,release,open,,,,J21-J20,,,,,,,"2F11,2E10",,,,,,,,,,,1,switch
+STEP,FULL,,,,10,,,,,,,J19-J15,resistance,measure,DMM,,,10:J19,8:J15,,,,,"2F10,2E08",,,1,0,1,,,0,,0,1,switch
+STEP,FULL,,,,11,,,,,,,settle,delay,,,,,,,100,,,,,,,,,,,,,,,,switch
+STEP,FULL,,,,12,,,,,,,check,passfail,,,,J19-J15,,,,,,,,,10000,,,,,,,,,1,switch
+STEP,FULL,,,,13,,,,,,,release,open,,,,J19-J15,,,,,,,"2F10,2E08",,,,,,,,,,,1,switch
+STEP,FULL,,,,14,,,,,,,J12-J16,resistance,measure,DMM,,,6:J12,8:J16,,,,,"2F06,2E08",,,1,0,1,,,0,,0,1,switch
+STEP,FULL,,,,15,,,,,,,settle,delay,,,,,,,100,,,,,,,,,,,,,,,,switch
+STEP,FULL,,,,16,,,,,,,check,passfail,,,,J12-J16,,,,,,,,,10000,,,,,,,,,1,switch
+STEP,FULL,,,,17,,,,,,,release,open,,,,J12-J16,,,,,,,"2F06,2E08",,,,,,,,,,,1,switch
+STEP,FULL,,,,18,,,,,,,J25-J17,resistance,measure,DMM,,,13:J25,9:J17,,,,,"4F01,2E09",,,1,0,1,,,0,,0,1,switch
+STEP,FULL,,,,19,,,,,,,settle,delay,,,,,,,100,,,,,,,,,,,,,,,,switch
+STEP,FULL,,,,20,,,,,,,check,passfail,,,,J25-J17,,,,,,,,,10000,,,,,,,,,1,switch
+STEP,FULL,,,,21,,,,,,,release,open,,,,J25-J17,,,,,,,"4F01,2E09",,,,,,,,,,,1,switch
+STEP,FULL,,,,22,,,,,,,J16-J17,resistance,measure,DMM,,,8:J16,9:J17,,,,,"2F08,2E09",,,1,0,1,,,0,,0,1,switch
+STEP,FULL,,,,23,,,,,,,settle,delay,,,,,,,100,,,,,,,,,,,,,,,,switch
+STEP,FULL,,,,24,,,,,,,check,passfail,,,,J16-J17,,,,,,,,,10000,,,,,,,,,1,switch
+STEP,FULL,,,,25,,,,,,,release,open,,,,J16-J17,,,,,,,"2F08,2E09",,,,,,,,,,,1,switch
+STEP,FULL,,,,26,,,,,,,J29-J37,resistance,measure,DMM,,,15:J29,19:J37,,,,,"4F03,4E07",,,1,0,1,,,0,,0,1,switch
+STEP,FULL,,,,27,,,,,,,settle,delay,,,,,,,100,,,,,,,,,,,,,,,,switch
+STEP,FULL,,,,28,,,,,,,check,passfail,,,,J29-J37,,,,,,,,,10000,,,,,,,,,1,switch
+STEP,FULL,,,,29,,,,,,,release,open,,,,J29-J37,,,,,,,"4F03,4E07",,,,,,,,,,,1,switch
+STEP,FULL,,,,30,,,,,,,J26-J27,current,measure,SMU,A,,13:J26,14:J27,10,0.00001,,,"4A01,4B02",,,1,0,1,,,0,,0,1,switch
+STEP,FULL,,,,31,,,,,,,settle,delay,,,,,,,100,,,,,,,,,,,,,,,,switch
+STEP,FULL,,,,32,,,,,,,check,passfail,,,,J26-J27,,,,,,,,,0.00001,,,,,,,,,1,switch
+STEP,FULL,,,,33,,,,,,,release,open,,,,J26-J27,,,,,,,"4A01,4B02",,,,,,,,,,,1,switch

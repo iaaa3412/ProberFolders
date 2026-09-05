@@ -1,8 +1,0 @@
-kind,recipe,pin,pad,net,seq,name,type,mode,instrument,chan,target,hi,lo,level,limit,shape,freq,conn,min,max,avg_count,avg_delay,nplc
-RECIPE,Lamp 21PCM whole wafer,,,,,,,,,,,,,,,,,,,,,,
-STEP,Lamp 21PCM whole wafer,,,,1,Settle before bias (Delay1),delay,,,,,,,2000,,,,,,,,,
-STEP,Lamp 21PCM whole wafer,,,,2,Bias Voltage,voltage,apply,SMU,A,,,,,0.000001,,,,,,,,
-STEP,Lamp 21PCM whole wafer,,,,3,Settle between bias and measure (Delay2),delay,,,,,,,100,,,,,,,,,
-STEP,Lamp 21PCM whole wafer,,,,4,Leakage Measurement,current,measure,SMU,A,,,,,0.000001,,,,,,1,0,1
-STEP,Lamp 21PCM whole wafer,,,,5,Release,open,,,,Bias Voltage,,,,,,,,,,,,
-STEP,Lamp 21PCM whole wafer,,,,6,Settle after release (Delay3),delay,,,,,,,100,,,,,,,,,
