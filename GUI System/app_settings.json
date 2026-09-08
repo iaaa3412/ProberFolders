@@ -23,7 +23,7 @@
     "9SQ9XP3": {
       "default_prober": {
         "system": "electroglas",
-        "bench": "probe03"
+        "bench": "Probe03New"
       },
       "default_ata_folder": "\\\\prober\\M\\ETL\\proberautomation\\LAMPATA"
     }

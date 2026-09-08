@@ -1,0 +1,1 @@
+kind,recipe,pin,pad,net,seq,bench,minor_moves,shortcut,fast_current_settle,manual_mode,align_die,shot_origin_x,shot_origin_y,name,type,mode,instrument,chan,target,hi,lo,level,limit,shape,freq,conn,min,max,avg_count,avg_delay,nplc,his,los,settle_delay,abs_value,mrange,die,route,instrument_key,terminals

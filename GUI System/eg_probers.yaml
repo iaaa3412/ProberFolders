@@ -1,4 +1,4 @@
-active: probe03
+active: Probe03New
 probers:
   probe02:
     label: probe02 — LaMP production bench
@@ -156,3 +156,91 @@ probers:
         fitted: false
         id_queries:
         - ID?
+  Probe03New:
+    label: Probe03New - probe03 with probe02's measurement chain
+    scanned: '2026-09-07'
+    notes: 'probe03 after probe02''s Keithley 2400 and VXI relay set were moved onto it. Every address
+      below was confirmed live on 2026-09-07: 3458A at 23, Keithley 2400 (MODEL 2400, serial 0839891)
+      at 24, 2001X at 29, E1300A mainframe at 9::0, E1326B at 9::3, and SWITCHBOX cards at 9::9, 9::14
+      and 9::15. VXI:CONF:DLAD? returns +0,+24,+72,+112,+120 - identical to probe02''s recorded backplane,
+      which is what confirms this is probe02''s hardware rather than probe03''s own. probe03''s former
+      cards are gone from the backplane: LADDR 80 (its wired E1364A at 9::10, now answering nothing) and
+      LADDR 56 (its failed E1326B at 9::7).
+
+
+      The E1326B now ANSWERS *IDN? (probe03''s own copy had failed its self test and was taken off-line),
+      and the Keithley 2400 is present - probe03''s old profile has it fitted: false.
+
+
+      NOT YET CONFIRMED: which card type sits at each secondary address, and how the probe card is wired
+      to it. *IDN? reports only ''SWITCHBOX'' for all three, and SYST:CTYP? timed out here, so the card_type/LADDR
+      pairing below is carried over from probe02''s record on the strength of the matching backplane,
+      not re-measured. hp_switchbox.BENCH_WIRING has no entry for this bench name yet, so recipe channel
+      resolution will report ''no relay wiring recorded'' until one is added - see the report.'
+    instruments:
+      prober_eg:
+        name: Electroglas 2001X
+        address: GPIB0::29::INSTR
+        timeout_ms: 3000
+        fitted: true
+        id_queries: []
+        write_probe: ?S
+      smu_eg:
+        name: Keithley 2400 (SMU)
+        address: GPIB0::24::INSTR
+        timeout_ms: 3000
+        fitted: true
+        id_queries:
+        - '*IDN?'
+        notes: 'MODEL 2400, serial 0839891. Found configured source VOLT / sense CURR:DC with the output
+          off - the 10 V isolation test LaMP ran.
+
+          '
+      dmm_eg:
+        name: HP 3458A (DMM)
+        address: GPIB0::23::INSTR
+        timeout_ms: 3000
+        fitted: true
+        id_queries:
+        - ID?
+        notes: REV 8,2. TERM? reads REAR. Needs END ALWAYS before any read.
+      dmm_vxi_eg:
+        name: HP E1326B (VXI DMM)
+        address: GPIB0::9::3::INSTR
+        timeout_ms: 5000
+        fitted: true
+        id_queries:
+        - '*IDN?'
+        notes: LADDR 24 (the factory address). Self test passes.
+      relay1_eg:
+        name: HP Switchbox 1 - E1345A
+        address: GPIB0::9::15::INSTR
+        timeout_ms: 3000
+        fitted: true
+        id_queries:
+        - '*IDN?'
+        notes: LADDR 120. LaMP's RELAY1, the one it used for electrical test.
+      relay2_eg:
+        name: HP Switchbox 2 - E1343A
+        address: GPIB0::9::9::INSTR
+        timeout_ms: 3000
+        fitted: true
+        id_queries:
+        - '*IDN?'
+        notes: LADDR 72. 16-channel HV relay multiplexer.
+      relay3_eg:
+        name: HP Switchbox 3 - E1364A
+        address: GPIB0::9::14::INSTR
+        timeout_ms: 3000
+        fitted: true
+        id_queries:
+        - '*IDN?'
+        notes: LADDR 112. 16-channel form C switch.
+      power_supply_eg:
+        name: Agilent 6634B (Power Supply)
+        address: GPIB0::25::INSTR
+        timeout_ms: 3000
+        fitted: false
+        id_queries:
+        - ID?
+        notes: In LaMP's table but not on this bus - VISA cannot open 25.

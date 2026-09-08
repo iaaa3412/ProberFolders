@@ -43,5 +43,7 @@
         }
       ]
     }
-  ]
+  ],
+  "default": "LaMP Electrical (tblLampElectricalMeasurements)",
+  "export_path": "//prober/NewData/ETL/RAWDATA/PROBE08/Lamp"
 }
