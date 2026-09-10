@@ -14,7 +14,7 @@
       "default_gui_mode": "normal"
     },
     "PROBE08": {
-      "default_ata_folder": "\\\\prober\\M\\ETL\\proberautomation\\PeanutATA",
+      "default_ata_folder": "//prober/M/ETL/proberautomation\\LAMPATA",
       "default_prober": {
         "system": "accretech",
         "bench": "probe08"

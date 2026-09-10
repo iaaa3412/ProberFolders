@@ -3,7 +3,7 @@
   "recipe": "Lamp 21PCM whole wafer",
   "electroglas": {
     "card": "LaMP_HP",
-    "recipe": "HP LaMP electrical gauge"
+    "recipe": "HP LaMP whole wafer"
   },
   "accretech": {
     "card": "LaMP_HP_b",
