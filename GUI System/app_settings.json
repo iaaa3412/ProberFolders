@@ -26,6 +26,13 @@
         "bench": "Probe03New"
       },
       "default_ata_folder": "\\\\prober\\M\\ETL\\proberautomation\\LAMPATA"
+    },
+    "ABDUL": {
+      "default_ata_folder": "C:/Users/abdul/Downloads/automationproject/ProberFolders\\NautATA",
+      "default_prober": {
+        "system": "accretech",
+        "bench": "probe08"
+      }
     }
   }
 }
