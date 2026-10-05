@@ -30,8 +30,8 @@
     "ABDUL": {
       "default_ata_folder": "C:/Users/abdul/Downloads/automationproject/ProberFolders\\LAMPATA",
       "default_prober": {
-        "system": "electroglas",
-        "bench": "Probe03New"
+        "system": "accretech",
+        "bench": "probe08"
       }
     }
   }
